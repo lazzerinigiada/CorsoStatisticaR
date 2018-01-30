@@ -7,16 +7,16 @@ output:
                 keep_md: TRUE
                 toc: TRUE       # enable the table of contents
                 toc_depth: 2    # set what titles to show
-                toc_float: TRUE # keep the toc around while scrolling (get rid of 'TRUE' before uncommenting the options)
-                        # collapsed: TRUE
-                        # smooth_scroll: TRUE 
-                number_sections: TRUE
-                theme: "cosmo" # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
-                fig_caption: TRUE
-                fig_width: 7
-                fig_height: 5
-                dev: png # the picture format
-                df_print: paged # default, kable, tibble, paged
+                # toc_float: TRUE # keep the toc around while scrolling (get rid of 'TRUE' before uncommenting the options)
+                #         # collapsed: TRUE
+                #         # smooth_scroll: TRUE 
+                # number_sections: TRUE
+                # theme: "cosmo" # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
+                # fig_caption: TRUE
+                # fig_width: 7
+                # fig_height: 5
+                # dev: png # the picture format
+                # df_print: paged # default, kable, tibble, paged
                 
 
 ---
