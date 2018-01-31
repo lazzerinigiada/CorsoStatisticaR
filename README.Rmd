@@ -1,67 +1,64 @@
 ---
-title: "**Syllabus**"
+title: "Syllabus"
 # author: "Giovanni Iacopetti"
 # date: "30/1/2018"
 output: 
-        html_document:
-                keep_md: TRUE
-                toc: TRUE       # enable the table of contents
-                toc_depth: 2    # set what titles to show
-                # toc_float: TRUE # keep the toc around while scrolling (get rid of 'TRUE' before uncommenting the options)
-                #         # collapsed: TRUE
-                #         # smooth_scroll: TRUE 
-                # number_sections: TRUE
-                # theme: "cosmo" # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
-                # fig_caption: TRUE
-                # fig_width: 7
-                # fig_height: 5
-                # dev: png # the picture format
-                # df_print: paged # default, kable, tibble, paged
-                
-
+        github_document:
+                toc: TRUE
+                # toc_depth: 3 # default = 3
+                # fig_width: 7 # default = 7
+                # fig_height: 5 # default = 5
+       
 ---
 
 
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# R Markdown {.tabset .tabset-fade}
+## Obbiettivi del corso:
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+### Tecniche di analisi dei dati
+Comprensive di nozioni base di statistica
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+### Tecnologie di analisi dei dati
+* Tecnologie per la collaborazione  
+* R e tecnologie satellite  
+* Version Control  
 
-```{r cars}
-summary(cars)
-```
+## Descrizione del corso:
 
-## Including Plots
+#### Il corso prevede:
+* 24 ore di esercitazione in laboratorio
+* 47 ore di lavoro individuale
+* 4 ore per la verifica scritta (senza voto) per il superamento del corso
 
-You can also embed plots, for example:
+#### Oraro di ricevimento:
+* Un'ora dopo la lezione in laboratorio
+* Su appuntamento inviando un'email al nostro indirizzo dell'università  
+        - Giovanni Iacopetti (giovanni.iacopetti)
+        
+## Prerequisiti del corso:
+Nessuno. 
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+Il materiale verrà trattato dall'inizio, senza dare alcunché per scontato.  
+Buona parte del materiale di supporto alla lezione (e in generale all'analisi dei dati) viene redatto in inglese (anche dagli italiani), è consigliata quindi un po' di buona volontà per affrontare una nuova terminologia in inglese.
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Durante il corso verranno utilizzati principalmente R, RStudio e GitHub.  
+Non è *indispensabile* avere tutto installato per la prima lezione ma lo sarà per la seconda lezione, e l'ora di ricevimento al termine della prima è un buon momento per risolvere eventuali problemi.
 
-## Trying some trick
-
-```{r}
-str(cars)
-```
-
-
-# Test
-
-```{r}
-mtcars
-```
+#### Installazioni (in quest'ordine):
+* R: il linguaggio di programmazione che verrà utilizzato per tutto il corso
+* RStudio: l'interfaccia grafica che permette di utilizzare R in modo molto più intuitivo
+* GIT (e relativo GitHub): il sistema di *version control* che renderà la vostra vita più tranquilla (alla fine). L'installazione può essere un po' complicata, per ogni problema - e per un'ottima introduzione all'argomento - consultate [Happy GIT With R](http://happygitwithr.com/)
 
 
-## Test2
+## Lezioni
 
-## Test3
+
+| Data       | Aula | Lezione                                                    |
+| ---        | ---  | ---                                                        |
+| 0x/03/2018 | J/E? | [lez01](lez01/): Introduzione al corso, l'analisi dei dati, approccio alle statistiche |
+| 0x/03/2018 | J/E? | [lez02](lez02/): R, gli oggetti ed i tipi di variabili |
 

@@ -1,118 +1,87 @@
----
-title: "**Syllabus**"
-# author: "Giovanni Iacopetti"
-# date: "30/1/2018"
-output: 
-        html_document:
-                keep_md: TRUE
-                toc: TRUE       # enable the table of contents
-                toc_depth: 2    # set what titles to show
-                # toc_float: TRUE # keep the toc around while scrolling (get rid of 'TRUE' before uncommenting the options)
-                #         # collapsed: TRUE
-                #         # smooth_scroll: TRUE 
-                # number_sections: TRUE
-                # theme: "cosmo" # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
-                # fig_caption: TRUE
-                # fig_width: 7
-                # fig_height: 5
-                # dev: png # the picture format
-                # df_print: paged # default, kable, tibble, paged
-                
+Syllabus
+================
 
----
+-   [Obbiettivi del corso:](#obbiettivi-del-corso)
+    -   [Tecniche di analisi dei dati](#tecniche-di-analisi-dei-dati)
+    -   [Tecnologie di analisi dei dati](#tecnologie-di-analisi-dei-dati)
+-   [Descrizione del corso:](#descrizione-del-corso)
+    -   [Il corso prevede:](#il-corso-prevede)
+    -   [Oraro di ricevimento:](#oraro-di-ricevimento)
+-   [Prerequisiti del corso:](#prerequisiti-del-corso)
+    -   [Installazioni (in quest'ordine):](#installazioni-in-questordine)
+-   [Lezioni](#lezioni)
 
+Obbiettivi del corso:
+---------------------
 
+### Tecniche di analisi dei dati
 
+Comprensive di nozioni base di statistica
 
+### Tecnologie di analisi dei dati
 
-# R Markdown {.tabset .tabset-fade}
+-   Tecnologie per la collaborazione
+-   R e tecnologie satellite
+-   Version Control
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Descrizione del corso:
+----------------------
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+#### Il corso prevede:
 
+-   24 ore di esercitazione in laboratorio
+-   47 ore di lavoro individuale
+-   4 ore per la verifica scritta (senza voto) per il superamento del corso
 
-```r
-summary(cars)
-```
+#### Oraro di ricevimento:
 
-```
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-```
+-   Un'ora dopo la lezione in laboratorio
+-   Su appuntamento inviando un'email al nostro indirizzo dell'università
+    - Giovanni Iacopetti (giovanni.iacopetti)
 
-## Including Plots
+Prerequisiti del corso:
+-----------------------
 
-You can also embed plots, for example:
+Nessuno.
 
-![](README_files/figure-html/pressure-1.png)<!-- -->
+Il materiale verrà trattato dall'inizio, senza dare alcunché per scontato.
+Buona parte del materiale di supporto alla lezione (e in generale all'analisi dei dati) viene redatto in inglese (anche dagli italiani), è consigliata quindi un po' di buona volontà per affrontare una nuova terminologia in inglese.
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Durante il corso verranno utilizzati principalmente R, RStudio e GitHub.
+Non è *indispensabile* avere tutto installato per la prima lezione ma lo sarà per la seconda lezione, e l'ora di ricevimento al termine della prima è un buon momento per risolvere eventuali problemi.
 
-## Trying some trick
+#### Installazioni (in quest'ordine):
 
+-   R: il linguaggio di programmazione che verrà utilizzato per tutto il corso
+-   RStudio: l'interfaccia grafica che permette di utilizzare R in modo molto più intuitivo
+-   GIT (e relativo GitHub): il sistema di *version control* che renderà la vostra vita più tranquilla (alla fine). L'installazione può essere un po' complicata, per ogni problema - e per un'ottima introduzione all'argomento - consultate [Happy GIT With R](http://happygitwithr.com/)
 
-```r
-str(cars)
-```
+Lezioni
+-------
 
-```
-## 'data.frame':	50 obs. of  2 variables:
-##  $ speed: num  4 4 7 7 8 9 10 10 10 11 ...
-##  $ dist : num  2 10 4 22 16 10 18 26 34 17 ...
-```
-
-
-# Test
-
-
-```r
-mtcars
-```
-
-```
-##                      mpg cyl  disp  hp drat    wt  qsec vs am gear carb
-## Mazda RX4           21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4
-## Mazda RX4 Wag       21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4
-## Datsun 710          22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1
-## Hornet 4 Drive      21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1
-## Hornet Sportabout   18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2
-## Valiant             18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1
-## Duster 360          14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4
-## Merc 240D           24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2
-## Merc 230            22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2
-## Merc 280            19.2   6 167.6 123 3.92 3.440 18.30  1  0    4    4
-## Merc 280C           17.8   6 167.6 123 3.92 3.440 18.90  1  0    4    4
-## Merc 450SE          16.4   8 275.8 180 3.07 4.070 17.40  0  0    3    3
-## Merc 450SL          17.3   8 275.8 180 3.07 3.730 17.60  0  0    3    3
-## Merc 450SLC         15.2   8 275.8 180 3.07 3.780 18.00  0  0    3    3
-## Cadillac Fleetwood  10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4
-## Lincoln Continental 10.4   8 460.0 215 3.00 5.424 17.82  0  0    3    4
-## Chrysler Imperial   14.7   8 440.0 230 3.23 5.345 17.42  0  0    3    4
-## Fiat 128            32.4   4  78.7  66 4.08 2.200 19.47  1  1    4    1
-## Honda Civic         30.4   4  75.7  52 4.93 1.615 18.52  1  1    4    2
-## Toyota Corolla      33.9   4  71.1  65 4.22 1.835 19.90  1  1    4    1
-## Toyota Corona       21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1
-## Dodge Challenger    15.5   8 318.0 150 2.76 3.520 16.87  0  0    3    2
-## AMC Javelin         15.2   8 304.0 150 3.15 3.435 17.30  0  0    3    2
-## Camaro Z28          13.3   8 350.0 245 3.73 3.840 15.41  0  0    3    4
-## Pontiac Firebird    19.2   8 400.0 175 3.08 3.845 17.05  0  0    3    2
-## Fiat X1-9           27.3   4  79.0  66 4.08 1.935 18.90  1  1    4    1
-## Porsche 914-2       26.0   4 120.3  91 4.43 2.140 16.70  0  1    5    2
-## Lotus Europa        30.4   4  95.1 113 3.77 1.513 16.90  1  1    5    2
-## Ford Pantera L      15.8   8 351.0 264 4.22 3.170 14.50  0  1    5    4
-## Ferrari Dino        19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6
-## Maserati Bora       15.0   8 301.0 335 3.54 3.570 14.60  0  1    5    8
-## Volvo 142E          21.4   4 121.0 109 4.11 2.780 18.60  1  1    4    2
-```
-
-
-## Test2
-
-## Test3
-
+<table style="width:17%;">
+<colgroup>
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Data</th>
+<th>Aula</th>
+<th>Lezione</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0x/03/2018</td>
+<td>J/E?</td>
+<td><a href="lez01/">lez01</a>: Introduzione al corso, l'analisi dei dati, approccio alle statistiche</td>
+</tr>
+<tr class="even">
+<td>0x/03/2018</td>
+<td>J/E?</td>
+<td><a href="lez02/">lez02</a>: R, gli oggetti ed i tipi di variabili</td>
+</tr>
+</tbody>
+</table>
