@@ -1,5 +1,5 @@
 ---
-title: "lez02: R - Markdown - Assegnazione - Oggetti e tipologie di variabili"
+title: "lez02: RStudio - Markdown - Assegnazione - Oggetti e tipologie di variabili"
 output: 
         github_document:
                 toc: TRUE
@@ -8,12 +8,25 @@ output:
 ```{r setup, include=FALSE}
 # knitr::opts_chunk$set(echo = TRUE)
 ```
+## RStudio
 
+### La console
+La console (che normalmente sta in basso a sinistra) è il luogo dove scrivere i comandi che non devono essere eseguiti di nuovo, quindi potete fare quasi finta che non esista: tutto quello che fate li si perde nelle nebbie dell'oblio.  
+Il suo ruolo interattivo la rende utile però se si vogliono avere informazioni (solo per toglierci delle curiosità o per capire cosa non andava), oppure per fare modifiche che in generale vengono fatte una volta per tutte (come installare componenti aggiuntivi, meglio noti come `package`).
+Potete provare a digitare nella console `a = 1` e invio, e vedrete nella scheda 'environment' (solitamente in alto a destra) comparire il nome della variabile e il valore inserito.
+Se iniziate a lavorare con questi valori, domani tutto il lavoro che avrete fatto sarà irreplicabile, e questo è il motivo principale per cui si può evitare tranquillamente di utilizzare la console per cose serie.
+
+### Gli script (File/New File/R Script) 
+Se volete scrivere/copiare/archiviare piccole porzioni di codice da riutilizzare in seguito il sistema più semplice sono gli script: file `.R` che contengono normalmente solo il codice necessario. Questo codice tramite il comando Run (in alto a destra nella finestra) viene passato alla console e eseguito, rimanendo però a dispoizione per essere cambiato e eseguito di nuovo.
+
+### RMarkdown (File/New File/R Markdown...)
+Quando volete lavorare con qualcosa che resti, e che sia accessibile a chiunque altro, utilizzate il formato RMarkdown, potete decidere voi in che formato sarà convertito il risultato finale, il default (HTML) va benissimo per iniziare. Il file parte già completo di esempi, salvatelo dove preferite, e con il pulsante 'Knit' in alto a sinistra otterrete l'HTML con lo stesso nome, nella stessa cartella dove avete salvato il file. Confrontate i due file per vedere come un formato viene trasformato nell'altro.
 
 ## Assegnazione
+Tutta la programmazione gira attorno alle variabili, oggetti dentro cui possiamo immagazzinare ogni tipo di dati.
 
-Alle variabili dovrebbero essere assegnati nomi chiari e significativi, il linguaggio è "case sensitive", cioè distingue fra maiuscole e minuscole, quindi `variablename` è diverso da `VariableName`.
-Cercate di utilizzare un sistema il più possibile unico:  
+Alle variabili dovrebbero essere dati nomi chiari e significativi, il linguaggio è "case sensitive", cioè distingue fra maiuscole e minuscole, quindi `variablename` è diverso da `VariableName`.
+Cercate di utilizzare un sistema il più possibile uniforme:  
 
 | metodo | esempio | note |
 | ------ | ------- | ---- |
@@ -26,11 +39,19 @@ Cercate di utilizzare un sistema il più possibile unico:
 
 In R il punto l'underscore possono essere legati a diversi approcci allo stesso problema (cfr. `data.frame` VS `data_frame`).
 
-In R è buona regola utilizzare per l'assegnazione di valori ad una variabile il simbolo `<-` che RStudio mappa su ALT-
+Abbiamo già assegnato alla variabile `a` il valore `1`, ma l'abbiamo fatto in un modo piuttosto discutibile: in R è buona regola utilizzare per l'assegnazione di valori ad una variabile il simbolo `<-` che RStudio mappa su ALT- (facciamo che *questo é l'unico modo corretto*!)
 
 ```{r}
-
+a <- 3
 ```
+
+Scrivere solo il nome della variabile porta il programma a mostrarmi il contenuto di quella variabile:
+```{r}
+a
+```
+
+i due asterischi significano che quello è un output del programma, l' [1] è solo la posizione all'interno della variabile del numero mostrato (le variabili possono avere strutture anche molto complesse e di default il programma mi mostra dove sono all'interno della variabile)
+
 
 
 

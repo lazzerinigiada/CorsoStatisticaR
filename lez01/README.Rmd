@@ -3,19 +3,8 @@ title: "lez01: Introduzione al corso - L'analisi dei dati - Approccio alle stati
 output: 
         github_document:
                 toc: TRUE
-                toc_depth: 5
+                toc_depth: 3
 ---
-
-* Rapida introduzione al corso
-* Replicabilità
-* Collaborazione
-* Manutanzione
-* L'analisi dei dati
-* Statistica descrittiva
-* Statistica inferenziale
-* Statistica predittiva
-* Hypotesis Testing
-
 
 ## Perché stiamo facendo questo corso?
 ##### Cosa ci si aspetta dagli studenti e chi lo dovrebbe insegnare:
@@ -60,13 +49,40 @@ Queste competenze possono però essere mutuate da chi si è scontrato con gli st
 * Idealmente *potrebbe essere una buona scelta imparare entrambi i linguaggi*, anche se il settore delle scienze applicate non giova particolarmente delle versatilità di Python
 
 ## Collaborazione
-##### Il problema dei file rinominati
-Il problema delle vecchie 
+##### Il primo dei problemi: io non parlo sloveno, tantomeno lo leggo
+La collaborazione, nel mondo accademico ma non solo, passa prima di tutto da un linguaggio in comune, che non dovrebbe mai essere dato per scontato: *fate un punto d'onore di utilizzare solo l'inglese per ogni cosa relativa ai vostri studi*, qualsiasi materiale prodotto, qualsiasi dato raccolto. E ringraziate il cielo che la lingua della comunità scientifica non sia più il latino.
 
-##### Collaborazione per la stesura dei files
+##### 2: le mille versioni di un file
+Anche lavorando da soli ci si può trovare a salvare decine di versioni dello stesso file di testo, per segmentarlo in diversi file quando cresce troppo, per finre con dei raccapriccianti archivi .zip di intere cartelle. Questo, quando si collabora in più persone allo stesso progetto, aumenta in modo esponenziale, mentre si aggiunge un altro problema:
 
+##### 3: chi sta lavorando a cosa
+Va tutto bene finché non si scopre di aver lavorato due giorni su un file che qualcun altro ha nel frattempo reso completamente irrilevante. Non succede solo per processi molto lenti e controllati dall'alto, in cui le revisioni vengono tutte accettate dal capo e reinviate ad un solo collaboratore alla volta. Il processo in questo caso è lento e doloroso.
 
+Questo è uno dei motivi per cui si **consiglia fortemente** <sup id="a1">[1](#f1)</sup> l'utilizzo del version control anche per i file di testo, e si ricorda che **NON È POSSIBILE METTERE SOTTO VERSION CONTROL FILE DI WORD**
+
+## Manutenzione
+##### Tutto il processo deve essere aggiornabile
+Aggiornabile con il minimo sforzo, il che richiede che tutto, **tutto**, sia scomposto nelle più piccole unità funzionali possibili, in modo da poterle rimpiazzare, correggere, aggiornare, espandere, senza dover rimettere le mani all'intero progetto.
+
+##### LA DOCUMENTAZIONE
+Ritornare su un progetto a distanza di settimane (quando non sono anni), può essere un'esperienza illuminante: spesso risulta più semplice ricostruire tutto da capo che non effettuare una piccola variazione. Il primo dei motivi per cui questo succede è una pessima documentazione: file dove sono spiegati tutti i termini, le abbreviazioni, le unità di misura, le scelte che sono state fatte.
+Mentre buone pratiche di scrittura (come l'identazione del codice, la scelta dei nomi per le variabili, ecc) si apprendono fondamentalmente con la pratica, una documentazione costante può essere autoimposta attraverso alcune tecniche più avanzate, in primi un Versioning costante (ed altre che al momento esulano dagli scopi di questo corso).
+
+## L'analisi dei dati
+
+## Statistica descrittiva
+
+##Statistica inferenziale
+
+##Statistica predittiva
+
+##Hypotesis Testing
 
 
 
 [Syllabus](../README.md) <---> [lez02](/lez02/)
+
+[Fork e Pull Request for dummies](https://www.chronicle.com/blogs/profhacker/forks-and-pull-requests-in-github/47753)
+
+
+<i id="f1" >1</i> [Eccellente risorsa sul versioning in (anche per i file di solo testo) e sull'utilizzo di GitHub per principianti (e non)](https://programminghistorian.org/lessons/getting-started-with-github-desktop#why-version-control-text-documents) [↩](#a1)
