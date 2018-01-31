@@ -20,7 +20,7 @@ Alle variabili dovrebbero essere assegnati nomi chiari e significativi, il lingu
 
 In R il punto l'underscore possono essere legati a diversi approcci allo stesso problema (cfr. `data.frame` VS `data_frame`).
 
-In R è buona regola utilizzare per l'assegnazione di variabili il simbolo `<-` che RStudio mappa automaticamente su ALT-
+In R è buona regola utilizzare per l'assegnazione di valori ad una variabile il simbolo `<-` che RStudio mappa su ALT-
 
 Gli oggetti in R
 ----------------
