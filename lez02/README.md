@@ -16,11 +16,15 @@ Alle variabili dovrebbero essere assegnati nomi chiari e significativi, il lingu
 | lower camelcase | `niceVariableName`   | una vecchia gloria                      |
 | upper camelcase | `NiceVariableName`   | ha un po' più senso                     |
 | dot             | `nice.variable.name` | in altri linguaggi ha altri significati |
-| **underscore**  | `nice_variable_name` | molto più leggibile                     |
+| **underscore**  | `nice_variable_name` | **molto più leggibile**                 |
 
-in R il punto l'underscore sono
+In R il punto l'underscore possono essere legati a diversi approcci allo stesso problema (cfr. `data.frame` VS `data_frame`).
+
+In R è buona regola utilizzare per l'assegnazione di variabili il simbolo `<-` che RStudio mappa automaticamente su ALT-
 
 Gli oggetti in R
 ----------------
 
 Gli oggetti elementari possono essere
+
+[lez01](/lez01/) &lt;---&gt; [lez03](/lez03/)

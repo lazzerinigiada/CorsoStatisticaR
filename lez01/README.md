@@ -14,8 +14,6 @@ lez01: Introduzione al corso - L'analisi dei dati - Approccio alle statistiche
     -   [Il problema dei file rinominati](#il-problema-dei-file-rinominati)
     -   [Collaborazione per la stesura dei files](#collaborazione-per-la-stesura-dei-files)
 
-===
-
 -   Rapida introduzione al corso
 -   Replicabilità
 -   Collaborazione
@@ -26,8 +24,6 @@ lez01: Introduzione al corso - L'analisi dei dati - Approccio alle statistiche
 -   Statistica predittiva
 -   Hypotesis Testing
 
-===
-
 Perché stiamo facendo questo corso?
 -----------------------------------
 
@@ -36,7 +32,7 @@ Perché stiamo facendo questo corso?
 | Materia                 | Competenza                    |
 |-------------------------|-------------------------------|
 | Statistica              | Quali dati raccogliere        |
-| Materie specifiche      | Come si raccolgono            |
+| **Materie specifiche**  | **Come si raccolgono**        |
 | Data Management         | Digitalizzare i dati raccolti |
 | Data Carpentry          | Elaborare praticamente i dati |
 | Statistica descrittiva  | Riassumere i contenuti        |
@@ -83,3 +79,5 @@ Collaborazione
 Il problema delle vecchie
 
 ##### Collaborazione per la stesura dei files
+
+[Syllabus](/) &lt;---&gt; [lez02](/lez02/)

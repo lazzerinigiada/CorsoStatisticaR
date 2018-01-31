@@ -6,8 +6,6 @@ output:
                 toc_depth: 5
 ---
 
-===
-
 * Rapida introduzione al corso
 * Replicabilità
 * Collaborazione
@@ -18,14 +16,13 @@ output:
 * Statistica predittiva
 * Hypotesis Testing
 
-===
 
 ## Perché stiamo facendo questo corso?
 ##### Cosa ci si aspetta dagli studenti e chi lo dovrebbe insegnare:
 | Materia | Competenza |
 | ------- | ---------- |
 | Statistica | Quali dati raccogliere |
-| Materie specifiche | Come si raccolgono |
+| **Materie specifiche** | **Come si raccolgono** |
 | Data Management | Digitalizzare i dati raccolti |
 | Data Carpentry | Elaborare praticamente i dati |
 | Statistica descrittiva | Riassumere i contenuti |
@@ -67,3 +64,9 @@ Queste competenze possono però essere mutuate da chi si è scontrato con gli st
 Il problema delle vecchie 
 
 ##### Collaborazione per la stesura dei files
+
+
+
+
+
+[Syllabus](/) <---> [lez02](/lez02/)
