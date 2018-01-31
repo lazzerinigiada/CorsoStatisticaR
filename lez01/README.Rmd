@@ -69,4 +69,4 @@ Il problema delle vecchie
 
 
 
-[Syllabus](/) <---> [lez02](/lez02/)
+[Syllabus](./) <---> [lez02](/lez02/)
