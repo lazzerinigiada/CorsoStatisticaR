@@ -80,4 +80,4 @@ Il problema delle vecchie
 
 ##### Collaborazione per la stesura dei files
 
-[Syllabus](../README.md) &lt;---&gt; [lez02](/lez02/)
+[Syllabus](../) &lt;---&gt; [lez02](/lez02/)
