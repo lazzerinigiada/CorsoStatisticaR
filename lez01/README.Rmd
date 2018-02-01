@@ -38,37 +38,40 @@ Queste competenze possono però essere mutuate da chi si è scontrato con gli st
 
 #### FAQ
 ##### Perché non EXCEL
-* I dati con cui stiamo lavorando, e la complessità delle operazioni, sono troppi per il programma
-* Il programma, per quanto non ci pensiamo, non è gratuito
+* I dati con cui stiamo lavorando sono troppi per il programma 
+* la complessità delle operazioni rende le cose troppo complicate
+* Il programma, *per quanto non ci pensiamo*, non è gratuito
 * Le analisi più complesse sono semplicemente infattibili, richiedendo l'appoggio ad altri software
 * I passaggi (selezionare, spostare, copiare e incollare) sono un incubo da automatizzare
+* Se non automatizzati rendono il tutto assolutamente irriproducibile (e spesso non modificabile)
 
 ##### Perché non Python
 * Questa è "quasi" solo una scelta di gusti
 * Python, per quanto ancora più versatile, e proprio per quel motivo, richiede un approccio ancora più orientato all'informatica
-* Idealmente *potrebbe essere una buona scelta imparare entrambi i linguaggi*, anche se il settore delle scienze applicate non giova particolarmente delle versatilità di Python
+* Idealmente *potrebbe essere una buona scelta imparare entrambi i linguaggi*, anche se il settore delle scienze applicate non si giova particolarmente della versatilità di Python
 
 ## Collaborazione
 ##### Il primo dei problemi: io non parlo sloveno, tantomeno lo leggo
-La collaborazione, nel mondo accademico ma non solo, passa prima di tutto da un linguaggio in comune, che non dovrebbe mai essere dato per scontato: *fate un punto d'onore di utilizzare solo l'inglese per ogni cosa relativa ai vostri studi*, qualsiasi materiale prodotto, qualsiasi dato raccolto. E ringraziate il cielo che la lingua della comunità scientifica non sia più il latino.
+La collaborazione, nel mondo accademico ma non solo, passa prima di tutto da un linguaggio comune, che non dovrebbe mai essere dato per scontato: *fate un punto d'onore di utilizzare solo l'inglese per ogni cosa relativa ai vostri studi*, qualsiasi materiale prodotto, qualsiasi dato raccolto. E ringraziate il cielo che la lingua della comunità scientifica non sia più il latino.
 
 ##### 2: le mille versioni di un file
 Anche lavorando da soli ci si può trovare a salvare decine di versioni dello stesso file di testo, per segmentarlo in diversi file quando cresce troppo, per finre con dei raccapriccianti archivi .zip di intere cartelle. Questo, quando si collabora in più persone allo stesso progetto, aumenta in modo esponenziale, mentre si aggiunge un altro problema:
 
 ##### 3: chi sta lavorando a cosa
-Va tutto bene finché non si scopre di aver lavorato due giorni su un file che qualcun altro ha nel frattempo reso completamente irrilevante. Non succede solo per processi molto lenti e controllati dall'alto, in cui le revisioni vengono tutte accettate dal capo e reinviate ad un solo collaboratore alla volta. Il processo in questo caso è lento e doloroso.
+Va tutto bene finché non si scopre di aver lavorato due giorni su un file che qualcun altro ha nel frattempo reso completamente irrilevante.
 
-Questo è uno dei motivi per cui si **consiglia fortemente** <sup id="a1">[1](#f1)</sup> l'utilizzo del version control anche per i file di testo, e si ricorda che **NON È POSSIBILE METTERE SOTTO VERSION CONTROL FILE DI WORD**
+Questo è uno dei motivi per cui si **consiglia fortemente** <sup id="a1">[1](#f1)</sup> l'utilizzo del version control anche per i file che non contengono codice, e si ricorda che **NON È POSSIBILE METTERE SOTTO VERSION CONTROL FILE DI WORD**. Il formato Markdown, in particolare quello di R, permette in modo semplice di generare dei PDF estremamente funzionali e al contempo non impazzire con LaTeX.
 
 ## Manutenzione
 ##### Tutto il processo deve essere aggiornabile
 Aggiornabile con il minimo sforzo, il che richiede che tutto, **tutto**, sia scomposto nelle più piccole unità funzionali possibili, in modo da poterle rimpiazzare, correggere, aggiornare, espandere, senza dover rimettere le mani all'intero progetto.
 
 ##### LA DOCUMENTAZIONE
-Ritornare su un progetto a distanza di settimane (quando non sono anni), può essere un'esperienza illuminante: spesso risulta più semplice ricostruire tutto da capo che non effettuare una piccola variazione. Il primo dei motivi per cui questo succede è una pessima documentazione: file dove sono spiegati tutti i termini, le abbreviazioni, le unità di misura, le scelte che sono state fatte.
-Mentre buone pratiche di scrittura (come l'identazione del codice, la scelta dei nomi per le variabili, ecc) si apprendono fondamentalmente con la pratica, una documentazione costante può essere autoimposta attraverso alcune tecniche più avanzate, in primi un Versioning costante (ed altre che al momento esulano dagli scopi di questo corso).
+Ritornare su un progetto a distanza di settimane (quando non sono anni), può essere un'esperienza illuminante: spesso risulta più semplice ricostruire tutto da capo che non effettuare una piccola variazione. Il primo dei motivi per cui questo succede è l'assenz di documentazione: cioé di file dove sono spiegati tutti i termini, le abbreviazioni, le unità di misura, le scelte che sono state fatte.
+Mentre buone pratiche di scrittura (come l'identazione del codice, la scelta dei nomi per le variabili, ecc) si apprendono fondamentalmente con la pratica, una documentazione rigorosa può essere autoimposta attraverso alcune tecniche più avanzate, in primi un Versioning costante (ed altre che al momento esulano dagli scopi di questo corso, in particolare la creazione di `package` con RStudio).
 
 ## L'analisi dei dati
+L'analisi dei dati (alla fin fine il centro di tutto questo corso) sta diventando sempre più una disciplina a se, all'interno dei differenti rami delle scienze: la mole di dati aumenta costantemente, le metodologie e le tecnologie per ottenerne informazioni idem. Tutto questo al momento va sotto il nome di *Data Science*, che comprende diverse fasi, ognuna a quanto pare con un suo nome e i suoi specialisti: *Data Harvesting*, *Data Carpentry*, *Machine Learning*, *Data Visualization*.
 
 ## Statistica descrittiva
 
@@ -79,10 +82,15 @@ Mentre buone pratiche di scrittura (come l'identazione del codice, la scelta dei
 ##Hypotesis Testing
 
 
+---
 
 [Syllabus](../README.md) <---> [lez02](/lez02/)
 
-[Fork e Pull Request for dummies](https://www.chronicle.com/blogs/profhacker/forks-and-pull-requests-in-github/47753)
+---
 
+#### Materiale
+[GitHub - Fork e Pull Request for dummies](https://www.chronicle.com/blogs/profhacker/forks-and-pull-requests-in-github/47753)
+
+#### Note
 
 <i id="f1" >1</i> [Eccellente risorsa sul versioning in (anche per i file di solo testo) e sull'utilizzo di GitHub per principianti (e non)](https://programminghistorian.org/lessons/getting-started-with-github-desktop#why-version-control-text-documents) [↩](#a1)
