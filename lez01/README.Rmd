@@ -147,7 +147,7 @@ Esercizio: trovate le differenze
 
 <h2> NO </h2>
 
-<h5> PIANTA n°2 </h5>
+<h4> PIANTA n°2 </h4>
 
 | foglia | zona    | larghezza.marzo | lunghezza.marzo | larghezza.aprile | lunghezza.aprile |
 | ------ | ------- | --------------- | --------------- | ---------------- | ---------------- |

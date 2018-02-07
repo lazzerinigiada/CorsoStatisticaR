@@ -191,9 +191,9 @@ Esercizio: trovate le differenze
 <h2>
 NO
 </h2>
-<h5>
+<h4>
 PIANTA n°2
-</h5>
+</h4>
 | foglia | zona    | larghezza.marzo | lunghezza.marzo | larghezza.aprile | lunghezza.aprile |
 |--------|---------|-----------------|-----------------|------------------|------------------|
 | 2-01   | rosetta | 3,4 cm          | 1,3 cm          | 5,2 cm           | 2,0 cm           |
