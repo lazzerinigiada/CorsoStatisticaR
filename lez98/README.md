@@ -1,0 +1,95 @@
+lez98: Le domande da fare ai tuoi dati
+================
+
+-   [Prima di aprire RStudio](#prima-di-aprire-rstudio)
+-   [Guardiamoci intorno: `str() summary() plot() ggpairs()`](#guardiamoci-intorno-str-summary-plot-ggpairs)
+-   [Qui inizia l'analisi dei dati](#qui-inizia-lanalisi-dei-dati)
+-   [E adesso?](#e-adesso)
+
+Prima di aprire RStudio
+-----------------------
+
+1.  **Da dove vengono?**
+    -   Da dove arrivano i tuoi dati?
+    -   Chi li ha raccolti?
+    -   A che scopo?
+    -   C'è una documentazione? Se non c'è, perché non c'è?
+    -   Come prevedi di preservare queste informazioni?
+2.  **Cosa c'è dentro?**
+    -   È un file solo?
+    -   Quante variabili/caratteristiche?
+    -   I nomi delle colonne sono quello che ti aspettavi?
+3.  **Che cosa sono?**
+    -   Abbiamo a che fare con variabili continue?
+    -   Variabili discrete/discretizzate?
+    -   Variabili categoriche ordinali (cattivo, medio, buono)?
+    -   Variabili categoriche nominali (casa, lavoro, hobby)?
+    -   Date?
+    -   Stringhe di testo?
+    -   Combinazioni delle precedenti o peggio?
+
+Guardiamoci intorno: `str() summary() plot() ggpairs()`
+-------------------------------------------------------
+
+1.  **Quanto sono sporchi?**
+    -   Per ogni variabile i valori sono nei range attesi? `summary()`, `plot()`
+    -   I valori rispettano le indicazioni della documentazione? **(chi mai scrive una documentazione così utile???)**
+    -   Come sono indicati i valori mancanti? NA? \*? 0? spazi bianchi?
+    -   Qual'è la proporzione di dati mancanti? `summary()`
+    -   Ci sono altre forme di dati mancanti oltre quella ufficiale? (specialmente spazi bianchi)
+2.  **Come hai intenzione di gestirli?** (questo lo dovremmo aver risolto)
+    -   Come hai intenzione di registrare i cambiamenti che farai?
+    -   Come hai intenzione di registrare le tue analisi?
+3.  **Sono tutto quello di cui hai bisogno?**
+    -   Qual'è lo scopo del progetto?
+    -   Questi dati sono tutto quello di cui hai bisogno per completarlo?
+    -   Quali sono i risultati che vuoi ottenere?
+
+Qui inizia l'analisi dei dati
+-----------------------------
+
+1.  **Che variabili?**
+    -   Riesci a identificare delle variabili che vorresti prevedere o modellare?
+    -   C'è bisogno di alterare il formato delle variabili per fare delle analisi?
+2.  **Alto, Denso, Largo?**
+    -   Ci sono delle serie temporali?
+    -   Che frequenza hanno?
+    -   Dati trasversali? (fotografie di una situazione in un solo istante temporale)
+    -   Una combinazione delle due?
+    -   Quanto sono grandi?
+3.  **Quali sono continue?**
+    -   I dati sono **davvero continui**? O sono stati raccolti con degli intervalli?
+    -   Ci sono un sacco di analisi da fare su dati continui: istogrammi, line, box-plot, density-plot, visualizzazioni più creative
+    -   Si possono controllare le medie (moda, media e mediana), deviazioni standard, minimi, massimi, coefficienti di variazione
+    -   I dato possono essere continui, ma sono **censored** o **troncati**
+4.  **Quali sono categoriche?**
+    -   charts?
+    -   tabulations, cros tabulations?
+    -   % di risposte per categoria?
+    -   tutta la serie di test statistici per capire quali differenze fra le categorie sono significative
+5.  **Ci sono relazioni importanti?**
+    -   Cosa mostra la matrice delle correlazioni? `corrplot() ggpairs()`
+    -   Grafici bivariati divisi per categoria? `ggpairs()`
+    -   Cambiano questi grafici quando le variabili sono divisi in categorie?
+    -   Sono significative le differenze?
+
+E adesso?
+---------
+
+E adesso bisogna iniziare a chiedere ai dati le domande importanti per il tuo progetto.
+
+Buona fortuna!
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+Tutto questo è basato/copiato/tradotto dai seguenti post di Steph de Silva [@stephdesilva](https://twitter.com/StephdeSilva), di [Rex Analytics](http://rex-analytics.com):
+
+-   [Data Analysis: Questions to Ask the First Time](http://rex-analytics.com/data-analysis-questions-to-ask-the-first-time/)
+-   [Data Analysis: More Questions](http://rex-analytics.com/data-analysis-more-questions/)
+
+Non è una brutta idea leggere anche il terzo post della serie, quello sulle domande da fare a te stesso:
+[Data Analysis: Enough with the Questions Already](http://rex-analytics.com/data-analysis-enough-with-the-questions-already/)
