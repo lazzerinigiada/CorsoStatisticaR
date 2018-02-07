@@ -191,7 +191,7 @@ Esercizio: trovate le differenze
 <h2>
 NO
 </h2>
-**PIANTA n°2.xlsx**
+PIANTA n°2.xlsx
 
 | foglia | zona    | larghezza.marzo | lunghezza.marzo | larghezza.aprile | lunghezza.aprile |
 |--------|---------|-----------------|-----------------|------------------|------------------|
@@ -201,7 +201,7 @@ NO
 <h2>
 SI
 </h2>
-**leaf\_data.csv**
+leaf\_data.csv
 
 | leaf | plant | where   | width | length | month |
 |------|-------|---------|-------|--------|-------|
@@ -269,7 +269,7 @@ A questo punto seguirà una tabella con tutte le piante:
 
 Sarebbe bellissimo se questi dati fossero collegati da uno schema delle loro relazioni<sup id="a3">[3](#f3)</sup>:
 
-![diagramma dei dati](../materiale/lez01_diag.png)
+![diagramma dei dati](lez01_diag.png)
 
 > I dati sono per le macchine, il codice per gli umani
 
