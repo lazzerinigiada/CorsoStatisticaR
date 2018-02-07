@@ -197,7 +197,7 @@ PIANTA n°2
 | foglia | zona    | larghezza.marzo | lunghezza.marzo | larghezza.aprile | lunghezza.aprile |
 |--------|---------|-----------------|-----------------|------------------|------------------|
 | 2-01   | rosetta | 3,4 cm          | 1,3 cm          | 5,2 cm           | 2,0 cm           |
-| 2-02   | stelo   | 0               | 1,3 cm          |                  |                  |
+| 2-02   | stelo   | 0               | 1,3 cm          | 0                | 0                |
 
 <h2>
 SI
