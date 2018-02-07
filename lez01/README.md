@@ -194,8 +194,6 @@ NO
 <h4>
 PIANTA n°2
 </h4>
-test
-
 | foglia | zona    | larghezza.marzo | lunghezza.marzo | larghezza.aprile | lunghezza.aprile |
 |--------|---------|-----------------|-----------------|------------------|------------------|
 | 2-01   | rosetta | 3,4 cm          | 1,3 cm          | 5,2 cm           | 2,0 cm           |
@@ -204,8 +202,6 @@ test
 <h2>
 SI
 </h2>
-test
-
 | leaf | plant | where   | width | length | month |
 |------|-------|---------|-------|--------|-------|
 | 01   | 02    | rosette | 3.4   | 1.3    | 3     |
