@@ -127,13 +127,50 @@ Questi dati vengono trasferiti per le analisi sui files che noi chiameremo *dati
 
 ## I dati grezzi
 
-I dati grezzi devono essere pure e semplici trascrizioni dei dati originali, strutturati in un modo semplice e facili da controllare: una pratica può essere questa:
+I dati grezzi devono essere pure e semplici trascrizioni dei dati originali, strutturati in un modo semplice e facili da controllare: una pratica può essere la seguente
 
 1. identificare i livelli principali a cui appartengono i dati, questi normalmente sono un numero limitato:
-        1. livello di foglia
-        2. livello di pianta
-        3.      
+    * livello di foglia
+    * livello di pianta
+    * livello di plot/vaso
+    * livello di sito/serra
+    * livello regionale
+    
+2. creare un file singolo per ogni livello
+3. i dati vanno inseriti per riga: ogni colonna rappresenta una grandezza misurata, ogni riga una misura di quella grandezza. La prima colonna va laciata come ID della misura, la seconda come collegamento al livello superiore
+4. i dati vanno inseriti senza unità di misura (le unità di misura vanno specificate nella documentazione)
+5. i dati mancanti dovrebbero essere inseriti come **NA**, o (meno volentieri) come caselle bianche. Attenzione a non inserire **0** su misure non prese
+6. le misure ripetute vanno considerate come una nuova misura
+7. il separatore dei decimali è **il punto, non la virgola**
 
+Esercizio: trovate le differenze
+
+<h2> NO </h2>
+
+<h5> PIANTA n°2 </h5>
+
+| foglia | zona    | larghezza.marzo | lunghezza.marzo | larghezza.aprile | lunghezza.aprile |
+| ------ | ------- | --------------- | --------------- | ---------------- | ---------------- |
+| 2-01   | rosetta | 3,4 cm          | 1,3 cm          | 5,2 cm           | 2,0 cm           |
+| 2-02   | stelo   | 0               | 1,3 cm          |                  |                  |
+
+
+<h2> SI </h2>
+
+| leaf | plant | where   | width | length | month |
+| ---- | ----- | ------- | ----- | ------ | ----- |
+| 01   | 02    | rosette | 3.4   | 1.3    | 3     |
+| 01   | 02    | rosette | 5.2   | 2.0    | 4     |
+| 02   | 02    | stem    | NA    | 1.3    | 3     |
+
+| col    | notes |
+| ------ | ----- |
+| leaf   | numeric: ID of the leaf |
+| plant  | numeric: ID of the plant |
+| where  | str: position of the leaf (rosette, stem, bulb) |
+| width  | numeric: unit=cm , precision ±0.1 cm, measured in the widest point|
+| length | numeric: unit=cm , precision ±0.1 cm, measured without the stalk |
+| month  | numeric: 1=Jan., 2=Feb. ecc, measured the first day of each month |
 
 > I dati sono per le macchine, il codice per gli umani
 
