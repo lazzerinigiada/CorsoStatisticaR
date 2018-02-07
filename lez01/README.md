@@ -217,6 +217,53 @@ SI
 | length | numeric: unit=cm , precision ±0.1 cm, measured without the stalk   |
 | month  | numeric: 1=Jan., 2=Feb. ecc, measured the first day of each month  |
 
+A questo punto seguirà una tabella con tutte le piante:
+
+| plant | plot | taxa   | N   | T   | month |
+|-------|------|--------|-----|-----|-------|
+| 01    | 01   | ROSPEN | 3   | 1   | 3     |
+| 02    | 01   | ASPTEN | 5   | 1   | 4     |
+| 03    | 01   | BRASYL | 3   | 1   | 3     |
+
+<table style="width:18%;">
+<colgroup>
+<col width="9%" />
+<col width="8%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>col</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>plant</td>
+<td>numeric: ID of the plant</td>
+</tr>
+<tr class="even">
+<td>plot</td>
+<td>numeric: ID of the leaf</td>
+</tr>
+<tr class="odd">
+<td>taxa</td>
+<td>str: six letter code (ROSPEN = <em>Rosa pendulina</em>, ASPTEN = <em>Asparagus tenuifolius</em>, BRASYL = <em>Brachipodium sylvaticum</em>)</td>
+</tr>
+<tr class="even">
+<td>width</td>
+<td>numeric: unit=cm , precision ±0.1 cm, measured in the widest point</td>
+</tr>
+<tr class="odd">
+<td>length</td>
+<td>numeric: unit=cm , precision ±0.1 cm, measured without the stalk</td>
+</tr>
+<tr class="even">
+<td>month</td>
+<td>numeric: 1=Jan., 2=Feb. ecc, measured the first day of each month</td>
+</tr>
+</tbody>
+</table>
+
 > I dati sono per le macchine, il codice per gli umani
 
 I dati devono essere immagazzinati in modo che siano utilizzabili facilmente dalla macchina che li deve analizzare, in linea generale Excel ha abituato tutti a pensare ai dati in forma bidimensionale. La cosa funziona se i dati sono strutturalmente semplici, e pochi, ma mostra rapidamente le sue limitazioni.
