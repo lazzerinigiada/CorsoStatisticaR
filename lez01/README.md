@@ -27,7 +27,8 @@ lez01: Introduzione al corso - L'analisi dei dati - Approccio alle statistiche
 -   [La gestione dei dati](#la-gestione-dei-dati)
     -   [Copie, copie, copie](#copie-copie-copie)
     -   [I dati originali](#i-dati-originali)
-    -   [Materiale e approfondimenti](#materiale-e-approfondimenti)
+    -   [I dati grezzi](#i-dati-grezzi)
+-   [Materiale e approfondimenti](#materiale-e-approfondimenti)
     -   [Note](#note)
 
 Perché stiamo facendo questo corso?
@@ -147,11 +148,11 @@ Hypotesis Testing
 Il cuore della statistica scientifica è la capacità di testare un'ipotesi sui dati, nella quasi totalità dei casi si tratta di verificare statisticamente che la struttura dei dati non sia casuale. Il punto chiave da ricordare è che se si vuole davvero testare un'ipotesi non si può fare **nessun'altro tipo di statistica sui dati**, almeno *non prima dei test*. Una buona pratica sarebbe quella di stabilire l'ipotesi ed i metodi per testarla ancora prima di raccogliere i dati.
 
 La gestione dei dati
---------------------
+====================
 
 L'argomento è critico, per questo lo affrontiamo subito, con delle linee guida che da principio possono essere seguite abbastanza pedissequamente:
 
-#### Copie, copie, copie
+### Copie, copie, copie
 
 I dati (e tutte le elaborazioni per quel che ci riguarda), dovrebbero esistere in **almeno 3 copie**, in **almeno 2 luoghi fisici** diversi. La prassi per noi sarà: una copia sul computer, una sul cloud (per i dati di partenza sia GitHub, DropBox, BOX, o Google Drive non importa), e un backup completo (almeno mensile) del computer su un Hard Disk esterno.
 
@@ -160,9 +161,23 @@ I dati (e tutte le elaborazioni per quel che ci riguarda), dovrebbero esistere i
 -   **NO** chiavi USB o roba che vada persa
 -   **NO** backup tenuti insieme al computer (normalmente nei furti sparisce tutto)
 
-#### I dati originali
+I dati originali
+----------------
 
 Nei nostri ambiti di interesse i dati originali sono normalmente su un foglio di carta: che sia il blocco di appunti del laboratorio o le schede dei rilievi di campo, normalmente questi vengono registrati a matita<sup id="a2">[2](#f2)</sup>, con tutta una serie di note a margine, eccezioni, punti interrogativi. Questi dati dovrebbero essere conservati *come sono*, in una cartella con su scritto progetto e data, fotografati e trattati come tutti i dati digitali. Una regola valida sarebbe *non utilizzare dei dati per studi non previsti durante la loro raccolta*. Questo è vero specialmente per i dati di laboratorio, quindi i dati cartacei possono essere distrutti **una volta portato a termine lo studio**. Per i dati di campo, le fotografie, le osservazioni, le note a margine, prese durante i sopralluoghi, queste dovrebbero essere trattate con più cura e conservate, poiché non possiamo sapere quali di quelle informazioni potrebbero essere preziose domani, e quello che noi riusciamo a vedere non è sempre quello che riescono a vederci gli altri.
+
+Questi dati vengono trasferiti per le analisi sui files che noi chiameremo *dati grezzi*, o *raw data*.
+
+I dati grezzi
+-------------
+
+I dati grezzi devono essere pure e semplici trascrizioni dei dati originali, strutturati in un modo semplice e facili da controllare: una pratica può essere questa:
+
+1.  identificare i livelli principali a cui appartengono i dati, questi normalmente sono un numero limitato: 1. livello di foglia 2. livello di pianta 3.
+
+> I dati sono per le macchine, il codice per gli umani
+
+I dati devono essere immagazzinati in modo che siano utilizzabili facilmente dalla macchina che li deve analizzare, in linea generale Excel ha abituato tutti a pensare ai dati in forma bidimensionale. La cosa funziona se i dati sono strutturalmente semplici, e pochi, ma mostra rapidamente le sue limitazioni.
 
 ------------------------------------------------------------------------
 
@@ -170,7 +185,8 @@ Nei nostri ambiti di interesse i dati originali sono normalmente su un foglio di
 
 ------------------------------------------------------------------------
 
-#### Materiale e approfondimenti
+Materiale e approfondimenti
+===========================
 
 [GitHub - Fork e Pull Request for dummies](https://www.chronicle.com/blogs/profhacker/forks-and-pull-requests-in-github/47753)
 
