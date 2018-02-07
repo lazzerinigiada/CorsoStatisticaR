@@ -58,7 +58,7 @@ Non è *indispensabile* avere tutto installato per la prima lezione ma lo sarà 
 
 -   [R](https://cran.rstudio.com): il linguaggio di programmazione che verrà utilizzato per tutto il corso
 -   [RStudio](https://www.rstudio.com/products/rstudio/download/): l'interfaccia grafica che permette di utilizzare R in modo molto più intuitivo
--   GIT: il sistema di *version control* che renderà la vostra vita più tranquilla (alla fine). L'installazione può essere un po' complicata, per ogni problema - e per un'ottima introduzione all'argomento - consultate [Happy Git With R](http://happygitwithr.com/)
+-   GIT: il sistema di *version control* che renderà la vostra vita più tranquilla (alla fine) L'installazione può essere un po' complicata, per ogni problema - e per un'ottima introduzione all'argomento - consultate [Happy Git With R](http://happygitwithr.com/)
 -   [GitHub](http://github.com/): **N.B.** c'è un sistema di account per gli studenti che toglie alcune limitazioni degli account 'free' [a questo link](https://education.github.com/pack)
 -   [GitHub Desktop](https://desktop.github.com/): un software per gestire i propri progetti Git senza passare dal browser (permette di gestire anche i progetti in locale che non sono su GitHub)
 

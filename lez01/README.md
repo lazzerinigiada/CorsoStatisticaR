@@ -24,7 +24,10 @@ lez01: Introduzione al corso - L'analisi dei dati - Approccio alle statistiche
 -   [Statistica inferenziale](#statistica-inferenziale)
 -   [Statistica predittiva](#statistica-predittiva)
 -   [Hypotesis Testing](#hypotesis-testing)
-    -   [Materiale](#materiale)
+-   [La gestione dei dati](#la-gestione-dei-dati)
+    -   [Copie, copie, copie](#copie-copie-copie)
+    -   [I dati originali](#i-dati-originali)
+    -   [Materiale e approfondimenti](#materiale-e-approfondimenti)
     -   [Note](#note)
 
 Perché stiamo facendo questo corso?
@@ -141,7 +144,25 @@ Statistica predittiva
 Hypotesis Testing
 -----------------
 
-Il cuore della statistica scientifica è la capacità di testare un'ipotesi sui dati, nella quasi totalità dei casi si tratta di verificare statisticamente che la struttura dei dati non sia casuale. Il punto chiave da ricordare è che se si vuole testare un'ipotesi non si può fare **nessun'altro tipo di statistica sui dati**, almeno *non prima dei test*. Una buona pratica sarebbe quella di stabilire l'ipotesi ed i metodi per testarla ancora prima di raccogliere i dati.
+Il cuore della statistica scientifica è la capacità di testare un'ipotesi sui dati, nella quasi totalità dei casi si tratta di verificare statisticamente che la struttura dei dati non sia casuale. Il punto chiave da ricordare è che se si vuole davvero testare un'ipotesi non si può fare **nessun'altro tipo di statistica sui dati**, almeno *non prima dei test*. Una buona pratica sarebbe quella di stabilire l'ipotesi ed i metodi per testarla ancora prima di raccogliere i dati.
+
+La gestione dei dati
+--------------------
+
+L'argomento è critico, per questo lo affrontiamo subito, con delle linee guida che da principio possono essere seguite abbastanza pedissequamente:
+
+#### Copie, copie, copie
+
+I dati (e tutte le elaborazioni per quel che ci riguarda), dovrebbero esistere in **almeno 3 copie**, in **almeno 2 luoghi fisici** diversi. La prassi per noi sarà: una copia sul computer, una sul cloud (per i dati di partenza sia GitHub, DropBox, BOX, o Google Drive non importa), e un backup completo (almeno mensile) del computer su un Hard Disk esterno.
+
+-   **NO** CD-DVD riscrivibili o meno
+-   **NO** e-mail (se i dati sono pochi)
+-   **NO** chiavi USB o roba che vada persa
+-   **NO** backup tenuti insieme al computer (normalmente nei furti sparisce tutto)
+
+#### I dati originali
+
+Nei nostri ambiti di interesse i dati originali sono normalmente su un foglio di carta: che sia il blocco di appunti del laboratorio o le schede dei rilievi di campo, normalmente questi vengono registrati a matita<sup id="a2">[2](#f2)</sup>, con tutta una serie di note a margine, eccezioni, punti interrogativi. Questi dati dovrebbero essere conservati *come sono*, in una cartella con su scritto progetto e data, fotografati e trattati come tutti i dati digitali. Una regola valida sarebbe *non utilizzare dei dati per studi non previsti durante la loro raccolta*. Questo è vero specialmente per i dati di laboratorio, quindi i dati cartacei possono essere distrutti **una volta portato a termine lo studio**. Per i dati di campo, le fotografie, le osservazioni, le note a margine, prese durante i sopralluoghi, queste dovrebbero essere trattate con più cura e conservate, poiché non possiamo sapere quali di quelle informazioni potrebbero essere preziose domani, e quello che noi riusciamo a vedere non è sempre quello che riescono a vederci gli altri.
 
 ------------------------------------------------------------------------
 
@@ -149,10 +170,14 @@ Il cuore della statistica scientifica è la capacità di testare un'ipotesi sui 
 
 ------------------------------------------------------------------------
 
-#### Materiale
+#### Materiale e approfondimenti
 
 [GitHub - Fork e Pull Request for dummies](https://www.chronicle.com/blogs/profhacker/forks-and-pull-requests-in-github/47753)
+
+[Ten commandments for good data management](https://dynamicecology.wordpress.com/2016/08/22/ten-commandments-for-good-data-management/)
 
 #### Note
 
 <i id="f1" >1</i> [Eccellente risorsa sul versioning in (anche per i file di solo testo) e sull'utilizzo di GitHub per principianti (e non)](https://programminghistorian.org/lessons/getting-started-with-github-desktop#why-version-control-text-documents) [↩](#a1)
+
+<i id="f2" >2</i> [Come tenere un quaderno di laboratorio](https://colinpurrington.com/tips/lab-notebooks) [↩](#a2)
