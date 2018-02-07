@@ -97,7 +97,7 @@ Lezioni
 <tr class="even">
 <td>alla fine</td>
 <td>casa</td>
-<td><a href="lez02/">lez99: I passi da fare, per filo e per segno</a></td>
+<td><a href="lez99/">lez99: I passi da fare, per filo e per segno</a></td>
 </tr>
 </tbody>
 </table>
