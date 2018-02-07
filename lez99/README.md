@@ -23,7 +23,7 @@ Mettere il nome della directory (senza spazi, senza punteggiatura, al massimo gl
 
 ### 3. Impostare il progetto
 
-Controllare di essere dentro il progetto (la finestra della Console sotto il titolo ha in grigio l'indirizzo della cartella del progetto, che termina in "/nomedelprogetto/"? allora ok).
+Controllare di essere dentro il progetto (la finestra della Console, sotto il titolo, riporta in grigio l'indirizzo della cartella del progetto, che termina in "/nomedelprogetto/"? allora ok).
 Dal menu: "File -&gt; New File -&gt; RScript", oppure la prima icona in alto a sinistra e "R Script.
 Salvare il file (nome Rprofiler.R).
 Incollare dentro il file le seguenti righe:
