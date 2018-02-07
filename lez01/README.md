@@ -219,15 +219,15 @@ SI
 
 A questo punto seguirà una tabella con tutte le piante:
 
-| plant | plot | taxa   | N   | T   | month |
-|-------|------|--------|-----|-----|-------|
-| 01    | 01   | ROSPEN | 3   | 1   | 3     |
-| 02    | 01   | ASPTEN | 5   | 1   | 4     |
-| 03    | 01   | BRASYL | 3   | 1   | 3     |
+| plant | plot | taxa   | N   | T   |
+|-------|------|--------|-----|-----|
+| 01    | 01   | ROSPEN | 3   | 1   |
+| 02    | 01   | ASPTEN | 5   | 1   |
+| 03    | 01   | BRASYL | 3   | 1   |
 
-<table style="width:18%;">
+<table style="width:17%;">
 <colgroup>
-<col width="9%" />
+<col width="8%" />
 <col width="8%" />
 </colgroup>
 <thead>
@@ -250,16 +250,12 @@ A questo punto seguirà una tabella con tutte le piante:
 <td>str: six letter code (ROSPEN = <em>Rosa pendulina</em>, ASPTEN = <em>Asparagus tenuifolius</em>, BRASYL = <em>Brachipodium sylvaticum</em>)</td>
 </tr>
 <tr class="even">
-<td>width</td>
-<td>numeric: unit=cm , precision ±0.1 cm, measured in the widest point</td>
+<td>N</td>
+<td>numeric: unit=g/l , Nitrium concentration in the irrigation water</td>
 </tr>
 <tr class="odd">
-<td>length</td>
-<td>numeric: unit=cm , precision ±0.1 cm, measured without the stalk</td>
-</tr>
-<tr class="even">
-<td>month</td>
-<td>numeric: 1=Jan., 2=Feb. ecc, measured the first day of each month</td>
+<td>T</td>
+<td>numeric: treatment, 1=sunlight, 2=half-shade, 3=shade</td>
 </tr>
 </tbody>
 </table>

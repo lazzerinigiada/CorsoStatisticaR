@@ -154,6 +154,7 @@ Esercizio: trovate le differenze
 | 2-01   | rosetta | 3,4 cm          | 1,3 cm          | 5,2 cm           | 2,0 cm           |
 | 2-02   | stelo   | 0               | 1,3 cm          |                  |                  |
 
+
 <h2> SI </h2>
 
 | leaf | plant | where   | width | length | month |
@@ -161,6 +162,7 @@ Esercizio: trovate le differenze
 | 01   | 02    | rosette | 3.4   | 1.3    | 3     |
 | 01   | 02    | rosette | 5.2   | 2.0    | 4     |
 | 02   | 02    | stem    | NA    | 1.3    | 3     |
+
 
 | col    | notes |
 | ------ | ----- |
@@ -173,20 +175,20 @@ Esercizio: trovate le differenze
 
 A questo punto seguirà una tabella con tutte le piante:
 
-| plant | plot | taxa   | N   | T   | month |
-| ----- | ---- | ------ | --- | --- | ----- |
-| 01    | 01   | ROSPEN | 3   | 1   | 3     |
-| 02    | 01   | ASPTEN | 5   | 1   | 4     |
-| 03    | 01   | BRASYL | 3   | 1   | 3     |
+| plant | plot | taxa   | N   | T   |
+| ----- | ---- | ------ | --- | --- |
+| 01    | 01   | ROSPEN | 3   | 1   |
+| 02    | 01   | ASPTEN | 5   | 1   |
+| 03    | 01   | BRASYL | 3   | 1   |
 
-| col    | notes |
-| ------ | ----- |
-| plant  | numeric: ID of the plant |
-| plot   | numeric: ID of the leaf |
-| taxa   | str: six letter code (ROSPEN = *Rosa pendulina*, ASPTEN = *Asparagus tenuifolius*, BRASYL = *Brachipodium sylvaticum*) |
-| width  | numeric: unit=cm , precision ±0.1 cm, measured in the widest point|
-| length | numeric: unit=cm , precision ±0.1 cm, measured without the stalk |
-| month  | numeric: 1=Jan., 2=Feb. ecc, measured the first day of each month |
+
+| col   | notes |
+| ----- | ----- |
+| plant | numeric: ID of the plant |
+| plot  | numeric: ID of the leaf |
+| taxa  | str: six letter code (ROSPEN = *Rosa pendulina*, ASPTEN = *Asparagus tenuifolius*, BRASYL = *Brachipodium sylvaticum*) |
+| N     | numeric: unit=g/l , Nitrium concentration in the irrigation water |
+| T     | numeric: treatment, 1=sunlight, 2=half-shade, 3=shade |
 
 
 
