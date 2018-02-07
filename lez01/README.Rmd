@@ -1,14 +1,11 @@
 ---
 title: "lez01: Introduzione al corso - L'analisi dei dati - Approccio alle statistiche"
 output: 
-        html_document:
+        github_document:
                 toc: TRUE
-                toc_float: TRUE
-        # github_document:
-        #         toc: TRUE
-        #         # toc_depth: 3 # default = 3
-        #         # fig_width: 7 # default = 7
-        #         # fig_height: 5 # default = 5
+                # toc_depth: 3 # default = 3
+                # fig_width: 7 # default = 7
+                # fig_height: 5 # default = 5
 ---
 
 ## Perché stiamo facendo questo corso?
@@ -151,7 +148,7 @@ I dati devono essere immagazzinati in modo che siano utilizzabili facilmente dal
 
 ---
 
-[Syllabus](../README.html) <---> [lez02](/lez02/)
+[Syllabus](../README.md) <---> [lez02](/lez02/)
 
 ---
 

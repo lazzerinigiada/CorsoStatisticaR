@@ -3,14 +3,11 @@ title: "Laboratorio di Statistica Forestale"
 # author: "Giovanni Iacopetti"
 # date: "30/1/2018"
 output: 
-        html_document:
+        github_document:
                 toc: TRUE
-                toc_float: TRUE
-        # github_document:
-        #         toc: TRUE
-        #         # toc_depth: 3 # default = 3
-        #         # fig_width: 7 # default = 7
-        #         # fig_height: 5 # default = 5
+                # toc_depth: 3 # default = 3
+                # fig_width: 7 # default = 7
+                # fig_height: 5 # default = 5
 ---
 
 ```{r setup, include=FALSE}
