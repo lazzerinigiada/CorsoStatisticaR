@@ -147,7 +147,7 @@ Esercizio: trovate le differenze
 
 <h2> NO </h2>
 
-<h4> PIANTA n°2 </h4>
+**PIANTA n°2.xlsx**
 
 | foglia | zona    | larghezza.marzo | lunghezza.marzo | larghezza.aprile | lunghezza.aprile |
 | ------ | ------- | --------------- | --------------- | ---------------- | ---------------- |
@@ -156,6 +156,8 @@ Esercizio: trovate le differenze
 
 
 <h2> SI </h2>
+
+**leaf_data.csv** 
   
 | leaf | plant | where   | width | length | month |
 | ---- | ----- | ------- | ----- | ------ | ----- |
@@ -163,6 +165,7 @@ Esercizio: trovate le differenze
 | 01   | 02    | rosette | 5.2   | 2.0    | 4     |
 | 02   | 02    | stem    | NA    | 1.3    | 3     |
 
+**leaf_data_legend.csv**
 
 | col    | notes |
 | ------ | ----- |
@@ -175,12 +178,15 @@ Esercizio: trovate le differenze
 
 A questo punto seguirà una tabella con tutte le piante:
 
+**plant_data.csv**
+
 | plant | plot | taxa   | N   | T   |
 | ----- | ---- | ------ | --- | --- |
 | 01    | 01   | ROSPEN | 3   | 1   |
 | 02    | 01   | ASPTEN | 5   | 1   |
 | 03    | 01   | BRASYL | 3   | 1   |
 
+**plant_data_legend.csv**
 
 | col   | notes |
 | ----- | ----- |
@@ -190,7 +196,9 @@ A questo punto seguirà una tabella con tutte le piante:
 | N     | numeric: unit=g/l , Nitrium concentration in the irrigation water |
 | T     | numeric: treatment<br>1=sunlight<br>2=half-shade<br>3=shade |
 
+Sarebbe bellissimo se questi dati fossero collegati da uno schema delle loro relazioni<sup id="a3">[3](#f3)</sup>:
 
+![diagramma dei dati](../materiale/lez01_diag.png)
 
 > I dati sono per le macchine, il codice per gli umani
 
@@ -216,8 +224,12 @@ I dati devono essere immagazzinati in modo che siano utilizzabili facilmente dal
 
 [Ten commandments for good data management](https://dynamicecology.wordpress.com/2016/08/22/ten-commandments-for-good-data-management/)
 
+
 #### Note
 
 <i id="f1" >1</i> [Eccellente risorsa sul versioning in (anche per i file di solo testo) e sull'utilizzo di GitHub per principianti (e non)](https://programminghistorian.org/lessons/getting-started-with-github-desktop#why-version-control-text-documents) [↩](#a1)
 
 <i id="f2" >2</i> [Come tenere un quaderno di laboratorio](https://colinpurrington.com/tips/lab-notebooks) [↩](#a2) 
+
+
+<i id="f3" >3</i> [Il sito con cui è stato disegnato il diagramma](https://www.draw.io) [↩](#a3)

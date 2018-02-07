@@ -191,9 +191,8 @@ Esercizio: trovate le differenze
 <h2>
 NO
 </h2>
-<h4>
-PIANTA n°2
-</h4>
+**PIANTA n°2.xlsx**
+
 | foglia | zona    | larghezza.marzo | lunghezza.marzo | larghezza.aprile | lunghezza.aprile |
 |--------|---------|-----------------|-----------------|------------------|------------------|
 | 2-01   | rosetta | 3,4 cm          | 1,3 cm          | 5,2 cm           | 2,0 cm           |
@@ -202,11 +201,15 @@ PIANTA n°2
 <h2>
 SI
 </h2>
+**leaf\_data.csv**
+
 | leaf | plant | where   | width | length | month |
 |------|-------|---------|-------|--------|-------|
 | 01   | 02    | rosette | 3.4   | 1.3    | 3     |
 | 01   | 02    | rosette | 5.2   | 2.0    | 4     |
 | 02   | 02    | stem    | NA    | 1.3    | 3     |
+
+**leaf\_data\_legend.csv**
 
 | col    | notes                                                              |
 |--------|--------------------------------------------------------------------|
@@ -219,11 +222,15 @@ SI
 
 A questo punto seguirà una tabella con tutte le piante:
 
+**plant\_data.csv**
+
 | plant | plot | taxa   | N   | T   |
 |-------|------|--------|-----|-----|
 | 01    | 01   | ROSPEN | 3   | 1   |
 | 02    | 01   | ASPTEN | 5   | 1   |
 | 03    | 01   | BRASYL | 3   | 1   |
+
+**plant\_data\_legend.csv**
 
 <table style="width:17%;">
 <colgroup>
@@ -260,6 +267,10 @@ A questo punto seguirà una tabella con tutte le piante:
 </tbody>
 </table>
 
+Sarebbe bellissimo se questi dati fossero collegati da uno schema delle loro relazioni<sup id="a3">[3](#f3)</sup>:
+
+![diagramma dei dati](../materiale/lez01_diag.png)
+
 > I dati sono per le macchine, il codice per gli umani
 
 I dati devono essere immagazzinati in modo che siano utilizzabili facilmente dalla macchina che li deve analizzare, in linea generale Excel ha abituato tutti a pensare ai dati in forma bidimensionale. La cosa funziona se i dati sono strutturalmente semplici, e pochi, ma mostra rapidamente le sue limitazioni.
@@ -282,3 +293,5 @@ Materiale e approfondimenti
 <i id="f1" >1</i> [Eccellente risorsa sul versioning in (anche per i file di solo testo) e sull'utilizzo di GitHub per principianti (e non)](https://programminghistorian.org/lessons/getting-started-with-github-desktop#why-version-control-text-documents) [↩](#a1)
 
 <i id="f2" >2</i> [Come tenere un quaderno di laboratorio](https://colinpurrington.com/tips/lab-notebooks) [↩](#a2)
+
+<i id="f3" >3</i> [Il sito con cui è stato disegnato il diagramma](https://www.draw.io) [↩](#a3)
