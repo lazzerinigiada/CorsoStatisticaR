@@ -247,7 +247,7 @@ A questo punto seguirà una tabella con tutte le piante:
 </tr>
 <tr class="odd">
 <td>taxa</td>
-<td>str: six letter code (ROSPEN = <em>Rosa pendulina</em>, ASPTEN = <em>Asparagus tenuifolius</em>, BRASYL = <em>Brachipodium sylvaticum</em>)</td>
+<td>str: six letter code<br>ROSPEN = <em>Rosa pendulina</em><br>ASPTEN = <em>Asparagus tenuifolius</em><br>BRASYL = <em>Brachipodium sylvaticum</em></td>
 </tr>
 <tr class="even">
 <td>N</td>
@@ -255,7 +255,7 @@ A questo punto seguirà una tabella con tutte le piante:
 </tr>
 <tr class="odd">
 <td>T</td>
-<td>numeric: treatment, 1=sunlight, 2=half-shade, 3=shade</td>
+<td>numeric: treatment<br>1=sunlight<br>2=half-shade<br>3=shade</td>
 </tr>
 </tbody>
 </table>
