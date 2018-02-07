@@ -157,7 +157,7 @@ PIANTA n°2.xlsx
 
 <h2>SI</h2>
 
-leaf_data.csv
+leaf\_data.csv
   
 | leaf | plant | where   | width | length | month |
 | ---- | ----- | ------- | ----- | ------ | ----- |
@@ -199,6 +199,8 @@ A questo punto seguirà una tabella con tutte le piante:
 Sarebbe bellissimo se questi dati fossero collegati da uno schema delle loro relazioni<sup id="a3">[3](#f3)</sup>:
 
 ![diagramma dei dati](lez01_diag.png)
+
+Se una delle legende è più una traduzione di codici, come nel caso dei nomi delle piante, è opportuno preparare una tabella apposita (detta *lookup table*) con solo le due colonne: "codice" e "traduzione", normalmente indicate come **"key"** e **"value"**.
 
 > I dati sono per le macchine, il codice per gli umani
 

@@ -271,6 +271,8 @@ Sarebbe bellissimo se questi dati fossero collegati da uno schema delle loro rel
 
 ![diagramma dei dati](lez01_diag.png)
 
+Se una delle legende è più una traduzione di codici, come nel caso dei nomi delle piante, è opportuno preparare una tabella apposita (detta *lookup table*) con solo le due colonne: "codice" e "traduzione", normalmente indicate come **"key"** e **"value"**.
+
 > I dati sono per le macchine, il codice per gli umani
 
 I dati devono essere immagazzinati in modo che siano utilizzabili facilmente dalla macchina che li deve analizzare, in linea generale Excel ha abituato tutti a pensare ai dati in forma bidimensionale. La cosa funziona se i dati sono strutturalmente semplici, e pochi, ma mostra rapidamente le sue limitazioni.
