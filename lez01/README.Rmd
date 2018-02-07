@@ -230,29 +230,6 @@ Vedremo come questo passaggio sia tutto sommato semplice e indolore.
 
 ---
 
-# Compiti a casa:
-
-La prossima lezione sarà subito all'attacco dei dati, quindi se avete dei dati ecco il decalogo delle domande da fare ai vostri dati:
-
-1. Da dove vengono?
-    + Da dove arrivano i tuoi dati?
-    + Chi li ha raccolti?
-    + A che scopo?
-    + C'è una documentazione? Se non c'è, perché non c'è?
-    + Come prevedi di preservare queste informazioni?
-2. Cosa c'è dentro?
-    + È un file solo?
-    + Quante variabili/caratteristiche?
-    + I nomi delle colonne sono quello che ti aspettavi?
-3. Che cosa sono?
-    + Abbiamo a che fare con variabili continue?
-    + Variabili discrete/discretizzate?
-    + Variabili categoriche ordinali (cattivo, medio, buono)?
-    + Variabili categoriche nominali (casa, lavoro, hobby)?
-    + Date?
-    + Stringhe di testo?
-    + Combinazioni delle precedenti o peggio?
-
 ---
 
 <div align="center">
