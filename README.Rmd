@@ -73,6 +73,8 @@ Non è *indispensabile* avere tutto installato per la prima lezione ma lo sarà 
 
 | Data       | Aula | Lezione                                                    |
 | ---        | ---  | ---                                                        |
-| 0x/03/2018 | J/E? | [lez01](lez01/): Introduzione al corso, l'analisi dei dati, approccio alle statistiche |
-| 0x/03/2018 | J/E? | [lez02](lez02/): R, gli oggetti ed i tipi di variabili |
+| 0x/03/2018 | J/E? | [lez01: Introduzione al corso, l'analisi dei dati, approccio alle statistiche](lez01/) |
+| 0x/03/2018 | J/E? | [lez02: R, gli oggetti ed i tipi di variabili](lez02/) |
+|            |      |                                                        |
+| alla fine  | casa | [lez99: I passi da fare, per filo e per segno](lez02/) |
 

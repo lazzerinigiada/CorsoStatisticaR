@@ -82,12 +82,22 @@ Lezioni
 <tr class="odd">
 <td>0x/03/2018</td>
 <td>J/E?</td>
-<td><a href="lez01/">lez01</a>: Introduzione al corso, l'analisi dei dati, approccio alle statistiche</td>
+<td><a href="lez01/">lez01: Introduzione al corso, l'analisi dei dati, approccio alle statistiche</a></td>
 </tr>
 <tr class="even">
 <td>0x/03/2018</td>
 <td>J/E?</td>
-<td><a href="lez02/">lez02</a>: R, gli oggetti ed i tipi di variabili</td>
+<td><a href="lez02/">lez02: R, gli oggetti ed i tipi di variabili</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>alla fine</td>
+<td>casa</td>
+<td><a href="lez02/">lez99: I passi da fare, per filo e per segno</a></td>
 </tr>
 </tbody>
 </table>
