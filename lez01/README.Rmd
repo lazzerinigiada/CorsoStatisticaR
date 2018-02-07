@@ -126,6 +126,26 @@ Questi dati dovrebbero essere conservati *come sono*, in una cartella con su scr
 Una regola valida sarebbe *non utilizzare dei dati per studi non previsti durante la loro raccolta*. Questo è vero specialmente per i dati di laboratorio, quindi i dati cartacei possono essere distrutti **una volta portato a termine lo studio**.
 Per i dati di campo, le fotografie, le osservazioni, le note a margine, prese durante i sopralluoghi, queste dovrebbero essere trattate con più cura e conservate, poiché non possiamo sapere quali di quelle informazioni potrebbero essere preziose domani, e quello che noi riusciamo a vedere non è sempre quello che riescono a vederci gli altri.
 
+Questi dati vengono trasferiti per le analisi sui files che noi chiameremo *dati grezzi*, o *raw data*.
+
+#### I dati grezzi
+
+I dati grezzi devono essere pure e semplici trascrizioni dei dati originali, strutturati in un modo semplice e facili da controllare: una pratica può essere questa:
+
+1. identificare i livelli principali a cui appartengono i dati, questi normalmente sono un numero limitato:
+
+        * livello di foglia
+        *
+
+> I dati sono per le macchine, il codice per gli umani
+
+I dati devono essere immagazzinati in modo che siano utilizzabili facilmente dalla macchina che li deve analizzare, in linea generale Excel ha abituato tutti a pensare ai dati in forma bidimensionale. La cosa funziona se i dati sono strutturalmente semplici, e pochi, ma mostra rapidamente le sue limitazioni.
+
+
+
+
+
+
 
 
 
