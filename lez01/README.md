@@ -16,6 +16,10 @@ lez01: Introduzione al corso - L'analisi dei dati - Approccio alle statistiche
     -   [Tutto il processo deve essere aggiornabile](#tutto-il-processo-deve-essere-aggiornabile)
     -   [LA DOCUMENTAZIONE](#la-documentazione)
 -   [L'analisi dei dati](#lanalisi-dei-dati)
+    -   [Data Harvesting](#data-harvesting)
+    -   [Data Carpentry](#data-carpentry)
+    -   [Machine Learning](#machine-learning)
+    -   [Data Visualization](#data-visualization)
 -   [Statistica descrittiva](#statistica-descrittiva)
 -   [Statistica inferenziale](#statistica-inferenziale)
 -   [Statistica predittiva](#statistica-predittiva)
@@ -53,7 +57,7 @@ Se di un'analisi di laboratorio è possibile specificare passo passo tutte le op
 
 Automatizzando tutti i processi, dall'inizio alla fine.
 Questo però prevede l'acquisizione di una serie di competenze nuove e di familiarità con una serie di strumenti che non fanno parte storicamente del nostro bagaglio.
-Queste competenze possono però essere mutuate da chi si è scontrato con gli stessi problemi decine di anni prima, cioè l'informatica. Tutto sta nel trovare degli strumenti che rendano un po' meno problematica l'adozione delle soluzioni che l'informatica ha adottato già da decenni.
+Queste competenze possono però essere mutuate dall'informatica, che si è scontrato con gli stessi problemi decine di anni prima. Tutto sta nel trovare degli strumenti che rendano un po' meno problematica l'adozione delle soluzioni che l'informatica ha adottato già da decenni.
 
 #### FAQ
 
@@ -98,24 +102,46 @@ Aggiornabile con il minimo sforzo, il che richiede che tutto, **tutto**, sia sco
 
 ##### LA DOCUMENTAZIONE
 
-Ritornare su un progetto a distanza di settimane (quando non sono anni), può essere un'esperienza illuminante: spesso risulta più semplice ricostruire tutto da capo che non effettuare una piccola variazione. Il primo dei motivi per cui questo succede è l'assenz di documentazione: cioé di file dove sono spiegati tutti i termini, le abbreviazioni, le unità di misura, le scelte che sono state fatte. Mentre buone pratiche di scrittura (come l'identazione del codice, la scelta dei nomi per le variabili, ecc) si apprendono fondamentalmente con la pratica, una documentazione rigorosa può essere autoimposta attraverso alcune tecniche più avanzate, in primi un Versioning costante (ed altre che al momento esulano dagli scopi di questo corso, in particolare la creazione di `package` con RStudio).
+Ritornare su un progetto a distanza di settimane (quando non sono anni), può essere un'esperienza illuminante: spesso risulta più semplice ricostruire tutto da capo che non effettuare una piccola variazione. Il primo dei motivi per cui questo succede è l'assenza di documentazione: cioé di file dove sono spiegati tutti i termini, le abbreviazioni, le unità di misura, le scelte che sono state fatte. Mentre buone pratiche di scrittura (come l'identazione del codice, la scelta dei nomi per le variabili, ecc) si apprendono fondamentalmente con la pratica, una documentazione rigorosa può essere autoimposta attraverso alcune tecniche più avanzate, in primi un Versioning costante (ed altre che al momento esulano dagli scopi di questo corso, in particolare la creazione di `package` con RStudio).
 
 L'analisi dei dati
 ------------------
 
 L'analisi dei dati (alla fin fine il centro di tutto questo corso) sta diventando sempre più una disciplina a se, all'interno dei differenti rami delle scienze: la mole di dati aumenta costantemente, le metodologie e le tecnologie per ottenerne informazioni idem. Tutto questo al momento va sotto il nome di *Data Science*, che comprende diverse fasi, ognuna a quanto pare con un suo nome e i suoi specialisti: *Data Harvesting*, *Data Carpentry*, *Machine Learning*, *Data Visualization*.
 
+##### Data Harvesting
+
+L'unica fase che non tratteremo nel nostro corso, ha un'importanza fondamentale però nelle applicazioni GIS. Nel resto dei campi di interesse forestale normalmente la raccolta dei dati viene effettuata in campo.
+
+##### Data Carpentry
+
+Sebbene il termine non si sia ancora pienamente stabilito, normalmente indica tutte quelle operazioni sui dati che permettono di passare dalle tabelle di dati grezzi ad una struttura ordinata che agevoli poi le analisi. Questa parte del lavoro è, in ordine di tempo e di sforzi, la parte principale del lavoro con i dati, sottovalutarne l'importanza è il più comune degli errori che commette chi studia queste materie senza passare subito alla pratica.
+
+##### Machine Learning
+
+Sotto questo grande ombrello ricadono praticamente tutte le tecniche statistiche che ci permettono di identificare le strutture all'interno dei dati, dalle più semplici regressioni lineari a tecniche molto complesse.
+
+##### Data Visualization
+
+Questo è normalmente un altro grande punto debole dell'analisi dei dati: la visualizzazione, punto chiave della comunicazione dei risultati, permette non solo di comprendere e scoprire il contenuto dei dati che abbiamo raccolto, ma anche di veicolarlo ad altri. Per questo, insieme alle tecniche di comunicazione rappresenta probabilmente il cardine di tutta l'analisi, che viene svolta proprio per arrivare più chiaramente possibile ai propri dstinatari.
+
 Statistica descrittiva
 ----------------------
 
+La statistica descrittiva si occupa di rappresentare in un modo comprensibile moli di dati altrimenti difficili da considerare nella loro interezza. In questo senso può essere vista come una collezione di tecniche di sintesi. Le tecniche possono essere anche molto complesse, ma si sviluppano in un ordine piuttosto lineare sopra tecniche più semplici. Il 90% della statistica nelle applicazioni forestali è statistica descrittiva, sia nel senso più descrittivo, sia nella fase di analisi esplorativa.
+
 Statistica inferenziale
 -----------------------
+
+La statistica inferenziale si occupa di identificare i legami di causa-effetto all'interno dei dati reccolti. Questo tipo di analisi raramente possono essere svolte al di fuori di disegni sperimentali di laboratorio.
 
 Statistica predittiva
 ---------------------
 
 Hypotesis Testing
 -----------------
+
+Il cuore della statistica scientifica è la capacità di testare un'ipotesi sui dati, nella quasi totalità dei casi si tratta di verificare statisticamente che la struttura dei dati non sia casuale. Il punto chiave da ricordare è che se si vuole testare un'ipotesi non si può fare **nessun'altro tipo di statistica sui dati**, almeno *non prima dei test*. Una buona pratica sarebbe quella di stabilire l'ipotesi ed i metodi per testarla ancora prima di raccogliere i dati.
 
 ------------------------------------------------------------------------
 
@@ -125,7 +151,7 @@ Hypotesis Testing
 
 #### Materiale
 
-[Fork e Pull Request for dummies](https://www.chronicle.com/blogs/profhacker/forks-and-pull-requests-in-github/47753)
+[GitHub - Fork e Pull Request for dummies](https://www.chronicle.com/blogs/profhacker/forks-and-pull-requests-in-github/47753)
 
 #### Note
 
