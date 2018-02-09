@@ -30,7 +30,6 @@ lez01: Introduzione al corso - L'analisi dei dati - Approccio alle statistiche
     -   [I dati grezzi](#i-dati-grezzi)
     -   [La correzione dei file](#la-correzione-dei-file)
     -   [I dati su cui fare le analisi](#i-dati-su-cui-fare-le-analisi)
--   [Compiti a casa:](#compiti-a-casa)
 -   [Materiale e approfondimenti](#materiale-e-approfondimenti)
     -   [Note](#note)
 
@@ -303,30 +302,6 @@ I dati su cui fare le analisi
 A questo punto, quando tutti i dati sono stati corretti, andrà scritto il programma che li mette tutti insieme, in una tabella unica, con un sacco di caselle uguali (ad esempio la latitudine di ogni foglia di una pianta). Su questa tabella saranno fatte le analisi. Vedremo come questo passaggio sia tutto sommato semplice e indolore.
 
 ------------------------------------------------------------------------
-
-Compiti a casa:
-===============
-
-La prossima lezione sarà subito all'attacco dei dati, quindi se avete dei dati ecco il decalogo delle domande da fare ai vostri dati:
-
-1.  Da dove vengono?
-    -   Da dove arrivano i tuoi dati?
-    -   Chi li ha raccolti?
-    -   A che scopo?
-    -   C'è una documentazione? Se non c'è, perché non c'è?
-    -   Come prevedi di preservare queste informazioni?
-2.  Cosa c'è dentro?
-    -   È un file solo?
-    -   Quante variabili/caratteristiche?
-    -   I nomi delle colonne sono quello che ti aspettavi?
-3.  Che cosa sono?
-    -   Abbiamo a che fare con variabili continue?
-    -   Variabili discrete/discretizzate?
-    -   Variabili categoriche ordinali (cattivo, medio, buono)?
-    -   Variabili categoriche nominali (casa, lavoro, hobby)?
-    -   Date?
-    -   Stringhe di testo?
-    -   Combinazioni delle precedenti o peggio?
 
 ------------------------------------------------------------------------
 

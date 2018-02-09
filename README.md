@@ -97,9 +97,14 @@ Lezioni
 <tr class="even">
 <td>alla fine</td>
 <td>casa</td>
-<td><a href="lez98/">lez98: Le domande da fare ai tuoi dati</a></td>
+<td><a href="lez97/">lez97: Le cose e i loro nomi</a></td>
 </tr>
 <tr class="odd">
+<td>alla fine</td>
+<td>casa</td>
+<td><a href="lez98/">lez98: Le domande da fare ai tuoi dati</a></td>
+</tr>
+<tr class="even">
 <td>alla fine</td>
 <td>casa</td>
 <td><a href="lez99/">lez99: I passi da fare, per filo e per segno</a></td>

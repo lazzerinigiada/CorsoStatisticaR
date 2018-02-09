@@ -43,3 +43,9 @@ Questo permetterà di usare questi pacchetti all'interno del progetto senza dove
 **Le righe con "EOF" devono restare come sono**, in quelle fra le due vanno caricati i packege che probabilmente si useranno in buona parte delle analisi. Dopo `mkdir` seguono i nomi delle cartelle che verranno create, si poteva fare a mano, ma perché?
 
 ### 4.
+
+------------------------------------------------------------------------
+
+[Syllabus](../README.md)
+
+------------------------------------------------------------------------

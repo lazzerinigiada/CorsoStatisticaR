@@ -82,8 +82,9 @@ Buona fortuna!
 
 ---
 
----
-
+<div align="center">
+[Syllabus](../README.md) <---> [lez99](/lez99/)
+</div>
 ---
 
 Tutto questo è basato/copiato/tradotto dai seguenti post di Steph de Silva [\@stephdesilva](https://twitter.com/StephdeSilva), di [Rex Analytics](http://rex-analytics.com):
