@@ -19,7 +19,7 @@ relazionefinale.pdf
 
 #### NO
 
-i file Michè sono un po' pieni di spazi e accenti.pdf
+i file di Michè sono un po' pieni di spazi e accenti.pdf
 
 #### SI
 
