@@ -5,6 +5,7 @@ Laboratorio di Statistica Forestale
 -   [Obbiettivi del corso:](#obbiettivi-del-corso)
 -   [Prerequisiti del corso:](#prerequisiti-del-corso)
     -   [Installazioni e account (in quest'ordine):](#installazioni-e-account-in-questordine)
+-   [Presenze 2018](#presenze-2018)
 -   [Lezioni](#lezioni)
 
 ------------------------------------------------------------------------
@@ -61,6 +62,11 @@ Non è *indispensabile* avere tutto installato per la prima lezione ma lo sarà 
 -   GIT: il sistema di *version control* che renderà la vostra vita più tranquilla (alla fine) L'installazione può essere un po' complicata, per ogni problema - e per un'ottima introduzione all'argomento - consultate [Happy Git With R](http://happygitwithr.com/)
 -   [GitHub](http://github.com/): **N.B.** c'è un sistema di account per gli studenti che toglie alcune limitazioni degli account 'free' [a questo link](https://education.github.com/pack)
 -   [GitHub Desktop](https://desktop.github.com/): un software per gestire i propri progetti Git senza passare dal browser (permette di gestire anche i progetti in locale che non sono su GitHub)
+
+Presenze 2018
+-------------
+
+A [questo link](https://docs.google.com/spreadsheets/d/19U_JozMlFgE4YfD2kzcpR5lROR4U_wjfKJ3RsSGnqzk/edit?usp=sharing) è possibilie controllare il registro delle presenze. Chi è segnato senza l'anno di corso è pregato di mandarmelo per e-mail, in modo da poter aggiungere anche il suo indirizzo alla mailing-list.
 
 Lezioni
 -------
