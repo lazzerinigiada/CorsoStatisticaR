@@ -1,0 +1,33 @@
+---
+title: "FAQ Laboratorio di statistica"
+output: 
+        github_document:
+                toc: TRUE
+                # toc_depth: 3 # default = 3
+                # fig_width: 7 # default = 7
+                # fig_height: 5 # default = 5
+---
+
+```{r setup, include=FALSE}
+# knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Come ottenere i crediti:
+
+#### È obbligatorio frequentare il corso?
+
+Sì, si chiama frequenza proficua per un motivo. È obbligatorio seguire almeno l'80% delle lezioni.
+
+#### Si possono recuperare le lezioni perse?
+
+Sì, direi di sì, *magari* a gruppi, *magari* non un mese dopo.
+
+
+
+
+---
+
+<div align="center">
+[Syllabus](../README.md)
+</div>
+---
