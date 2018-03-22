@@ -38,9 +38,9 @@ Cercate di utilizzare un sistema il più possibile uniforme:
 | lower camelcase | `niceVariableName` | una vecchia gloria |
 | upper camelcase | `NiceVariableName` | ha un po' più senso |
 | dot | `nice.variable.name` | in altri linguaggi ha altri significati |
-| **underscore** | `nice_variable_name` | **molto più leggibile** |
+| **snake case** | `nice_variable_name` | **molto più leggibile** |
 
-In R il punto l'underscore possono essere legati a diversi approcci allo stesso problema (cfr. `data.frame` VS `data_frame`).
+In R il punto e l'underscore possono essere legati a diversi approcci allo stesso problema (cfr. `data.frame` VS `data_frame`).
 
 Abbiamo già assegnato alla variabile `a` il valore `1`, ma l'abbiamo fatto in un modo piuttosto discutibile: in R è buona regola utilizzare per l'assegnazione di valori ad una variabile il simbolo `<-` che RStudio mappa su ALT- (facciamo che *questo é l'unico modo corretto*!)
 
@@ -60,9 +60,146 @@ i due asterischi significano che quello è un output del programma, l' [1] è so
 
 ## Gli oggetti in R
 
-Gli oggetti elementari possono essere
+Gli oggetti elementari, sono i depositari delle nostre variabili e quindi devono rispecchiare in qualche modo la natura delle variabili stesse. Per questo è comodo avere più chiaro quali tipi di variabili
+
+### Oggetti elementari
+
+Gli oggetti elementari possono essere solo alcuni:
+
+* **numeric**: numeri (in diversi formati, di cui a noi può anche non fregarcene nulla)
+* **character**: testo (chiuso da virgolette, "doppie" o 'singole' indipendentemente)
+* **bool**: logici (vero o falso, anche detti *booleani*)
+
+```{r}
+class(1)
+class(3L) # questo non sembrerebbe un numero
+class(3.5)
+class(pi) # questa è in realtà una variabile preregistrata in R
+```
 
 
+
+
+
+```{r}
+b <- c("pi", 'a', "pippo", "TRUE")
+b
+for (i in b) print(paste0("class of ", i, " :", class(i)))
+```
+
+```{r}
+c <- c(TRUE, F, FALSE)
+c
+for (i in c) print(paste0("class of ", i, " :", class(i)))
+```
+
+### Oggetti composti
+
+Gli oggetto possono essere riuniti in due tipi di oggetti composti:
+
+* **vector**: vettori (serie di oggetti tutti dello stesso tipo)
+* **list**: liste (serie di oggetti di tipo anche diverso e forniti di nome)
+
+#### !!!Come fare un casino coi vettori!!!
+
+Quando vengono riuniti in un vettore, se gli oggetti sono di tipo diverso vengono costretti (**coerced**) nel tipo più generale:  
+
+In questo caso `3L` viene trattato come `numeric` anzi che `integer`:
+
+```{r}
+a <- c(1, 3L, 3.5, pi)
+a
+paste0("La classe generale del vettore: ",class(a))
+for (i in a) print(paste0("Class of ", i, " :", class(i)))
+```
+
+Se non sa che pesci prendere trasforma tutto in `character`:
+
+```{r}
+d <- c(1, 3L, 3.5, pi, "pi", 'a', "pippo", "TRUE", TRUE, F, FALSE)
+d
+for (i in d) print(paste0("Class of ", i, " :", class(i)))
+```
+
+#### !!!I `factor`, amore e odio, ma soprattutto odio!!!
+
+Un tipo particolare di vettore è `factor`, questo vettore riunisce variabili
+
+
+Le liste risolvono esattamente questo tipo di problema:
+
+```{r}
+e <- list(pinco = 34, pallino = "test", foo = T, bar = 5L)
+e
+for (i in e) {
+    print(i)
+    print(paste0("Class of ", i, " :", class(i)))
+}
+```
+
+Da notare la differenza fra il comando `print()` nei vettori e nelle liste (e da notare che la classe dei vettore è la classe del contenuto, mentre la classe della lista è `list`):
+
+```{r}
+class(d)
+print(d)
+class(e)
+print(e)
+```
+
+### I `dataframe`
+
+Il grosso dei dati vengono registrati e analizzati in formato tabulare, le tabelle assumono due forme differenti in R, ed è sempre meglio non confonderle:
+
+* **matrix**: matrici, fatte di soli numeri, senza nomi delle colonne o delle righe
+* **dataframe**: tecnicamente sono liste (elenco delle colonne), di vettori (le singole colonne)
+
+La struttura di lavoro sono i `dataframe`, cerchiamo di capirci su cosa implica questa natura mista di liste e vettori:
+
+* ogni colonna è un vettore, quindi deve avere oggetti tutti dello stesso tipo, dato che di solito sono numeri è chiaro che **il nome della colonna non sarà il primo elemento della colonna stessa**, purtroppo questo implica ache *le informazioni aggiuntive (quelle che in excel vanno nelle prime righe) le dovremo mettere da un'altra parte*...
+* essendo una lista di colonne, ogni colonna avrà un nome
+* le righe non dovrebbero avere nomi, meglio sarebbe avere una colonna con i nomi delle righe, generalmente indicati con il termine `ID`
+
+### Le funzioni
+
+Per ora non ci lanceremo nel magico mondo delle funzioni, quello che ci interessa è che sono sempre nel formato `nome_della_funzione()`, all'interno delle parentesi andrà l'oggetto a cui vogliamo applicare la funzione.  
+Le funzioni più utili al volo sono:
+
+```{r}
+str(e) # stampa la struttura dell'oggetto
+```
+
+```{r}
+summary(e) # cerca di fare un sommario del contenuto, è molto più utile su oggetti più complessi
+```
+
+```{r}
+cars
+```
+
+```{r}
+str(cars)
+```
+
+```{r}
+summary(cars)
+```
+
+## `package`: ovvero le librerie
+
+I `package`, ovvero gruppi di funzioni già realizzate da altri per gli scopi più vari, devono passare due step prima di essere utilizzati:
+
+1. Devono essere installati sul computer (una volta ogni installazione di R o RStudio), tramite la funzione `install.pakages("nome_del_package")`
+
+2. Devono essere ricaricati nella libreria ogni volta che si apre RStudio, per questo il comando viene riaggiunto ogni volta all'inizio di ogni file, il comando è `library("nome_del_package")`
+
+Il processo è automatizzato, richiede un passaggio in più se il package non è nella repository del CRAN (l'archivio ufficiale di packages), in quel caso normalmente si trova su GitHub, e c'è bisogno di aver installato il package `devtools`, che contiene la funzione `install_github()`. 
+
+fra le prime installazioni da fare sono sicuramente:
+`tidyverse`  
+`reshape2`
+`broom`
+`corrplot`
+`devtools`
 
 
 

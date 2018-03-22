@@ -108,7 +108,7 @@ Aggiornabile con il minimo sforzo, il che richiede che tutto, **tutto**, sia sco
 
 ##### LA DOCUMENTAZIONE
 
-Ritornare su un progetto a distanza di settimane (quando non sono anni), può essere un'esperienza illuminante: spesso risulta più semplice ricostruire tutto da capo che non effettuare una piccola variazione. Il primo dei motivi per cui questo succede è l'assenza di documentazione: cioé di file dove sono spiegati tutti i termini, le abbreviazioni, le unità di misura, le scelte che sono state fatte. Mentre buone pratiche di scrittura (come l'identazione del codice, la scelta dei nomi per le variabili, ecc) si apprendono fondamentalmente con la pratica, una documentazione rigorosa può essere autoimposta attraverso alcune tecniche più avanzate, in primi un Versioning costante (ed altre che al momento esulano dagli scopi di questo corso, in particolare la creazione di `package` con RStudio).
+Ritornare su un progetto a distanza di settimane (quando non sono anni), può essere un'esperienza illuminante: spesso risulta più semplice ricostruire tutto da capo che non effettuare una piccola variazione. Il primo dei motivi per cui questo succede è l'assenza di documentazione: cioé di file dove sono spiegati tutti i termini, le abbreviazioni, le unità di misura, le scelte che sono state fatte. Mentre buone pratiche di scrittura (come l'identazione del codice, la scelta dei nomi per le variabili, ecc) si apprendono fondamentalmente con la pratica, una documentazione rigorosa può essere autoimposta attraverso alcune tecniche più avanzate, in primis un Versioning costante (ed altre che al momento esulano dagli scopi di questo corso, in particolare la creazione di `package` con RStudio).
 
 L'analisi dei dati
 ------------------
@@ -134,7 +134,7 @@ Questo è normalmente un altro grande punto debole dell'analisi dei dati: la vis
 Statistica descrittiva
 ----------------------
 
-La statistica descrittiva si occupa di rappresentare in un modo comprensibile moli di dati altrimenti difficili da considerare nella loro interezza. In questo senso può essere vista come una collezione di tecniche di sintesi. Le tecniche possono essere anche molto complesse, ma si sviluppano in un ordine piuttosto lineare sopra tecniche più semplici. Il 90% della statistica nelle applicazioni forestali è statistica descrittiva, sia nel senso più descrittivo, sia nella fase di analisi esplorativa.
+La statistica descrittiva si occupa di rappresentare in un modo comprensibile moli di dati altrimenti difficili da considerare nella loro interezza. In questo senso può essere vista come una collezione di tecniche di sintesi. Le tecniche possono essere anche molto complesse, ma si sviluppano in un ordine piuttosto lineare sopra tecniche più semplici. Il 90% della statistica nelle applicazioni forestali è statistica descrittiva, sia nel senso più letterale del termine, sia nella fase di analisi esplorativa.
 
 Statistica inferenziale
 -----------------------
@@ -172,7 +172,7 @@ I dati (e tutte le elaborazioni per quel che ci riguarda), dovrebbero esistere i
 I dati originali
 ----------------
 
-Nei nostri ambiti di interesse i dati originali sono normalmente su un foglio di carta: che sia il blocco di appunti del laboratorio o le schede dei rilievi di campo, normalmente questi vengono registrati a matita<sup id="a2">[2](#f2)</sup>, con tutta una serie di note a margine, eccezioni, punti interrogativi. Questi dati dovrebbero essere conservati *come sono*, in una cartella con su scritto progetto e data, fotografati e trattati come tutti i dati digitali. Una regola valida sarebbe *non utilizzare dei dati per studi non previsti durante la loro raccolta*. Questo è vero specialmente per i dati di laboratorio, quindi i dati cartacei possono essere distrutti **una volta portato a termine lo studio**. Per i dati di campo, le fotografie, le osservazioni, le note a margine, prese durante i sopralluoghi, queste dovrebbero essere trattate con più cura e conservate, poiché non possiamo sapere quali di quelle informazioni potrebbero essere preziose domani, e quello che noi riusciamo a vedere non è sempre quello che riescono a vederci gli altri.
+Nei nostri ambiti di interesse i dati originali sono normalmente su un foglio di carta: che sia il blocco di appunti del laboratorio o le schede dei rilievi di campo, di solito questi vengono registrati a matita<sup id="a2">[2](#f2)</sup>, con tutta una serie di note a margine, eccezioni, punti interrogativi. Questi dati dovrebbero essere conservati *come sono*, in una cartella con su scritto progetto e data, fotografati e trattati come tutti i dati digitali. Una regola valida sarebbe *non utilizzare dei dati per studi non previsti durante la loro raccolta*. Questo è vero specialmente per i dati di laboratorio, quindi i dati cartacei possono essere distrutti **una volta portato a termine lo studio**. Per i dati di campo, le fotografie, le osservazioni, le note a margine, prese durante i sopralluoghi, dovrebbero essere trattate con più cura e conservate, poiché non possiamo sapere quali di quelle informazioni potrebbero essere preziose domani, e quello che noi riusciamo a vedere non è sempre quello che riescono a vederci gli altri.
 
 Questi dati vengono trasferiti per le analisi sui files che noi chiameremo *dati grezzi*, o *raw data*.
 
@@ -181,7 +181,7 @@ I dati grezzi
 
 I dati grezzi devono essere pure e semplici trascrizioni dei dati originali, strutturati in un modo semplice e facili da controllare: una pratica può essere la seguente
 
-1.  identificare i livelli principali a cui appartengono i dati, questi normalmente sono un numero limitato:
+1.  identificare i livelli principali a cui appartengono i dati:
     -   livello di foglia
     -   livello di pianta
     -   livello di plot/vaso
@@ -275,7 +275,7 @@ A questo punto seguirà una tabella con tutte le piante:
 </tbody>
 </table>
 
-Se una delle legende è più una traduzione di codici, come nel caso dei nomi delle piante, è opportuno preparare una tabella apposita (detta *lookup table*) con solo le due colonne: "codice" e "traduzione", normalmente indicate come **"key"** e **"value"**.
+Se una delle legende è più una traduzione di codici, come nel caso dei nomi delle piante, è opportuno preparare una tabella apposita (detta *lookup table*) con solo le due colonne: "codice" e "traduzione", generalmente indicate come **"key"** e **"value"**.
 
 Sarebbe bellissimo se questi dati fossero collegati da uno schema delle loro relazioni<sup id="a3">[3](#f3)</sup>:
 
@@ -292,7 +292,7 @@ La correzione dei file
 
 > Tutti i database giusti si somigliano, ogni database sbagliato è un casino a modo suo.<sup id="a4">[4](#f4)</sup>
 
-A questo punto i dati grezzi avranno probabilmente bisogno di una notevole quantità di tempo per essere puliti, uniformati, corretti. Se qualcuno avesse l'idea di sottovalutare questa fase la stima normale è che si tratti normalmente del 70% del lavoro. Fortunatamente R è un ambiente eccellente per questi scopi, sfortunatamente è quasi impossibile prevedere il delirio a cui andrete incontro. Per i casi più comuni velidi strumenti sono già stati sviluppati, e di nuovi ne possono essere approntati in caso si trovino casi ricorrenti, come la correzione automatica dei taxa botanici, sia per errori di ortografia che per sinonimi non più in uso.
+A questo punto i dati grezzi avranno probabilmente bisogno di una notevole quantità di tempo per essere puliti, uniformati, corretti. Se qualcuno avesse l'idea di sottovalutare questa fase la stima è che si tratti normalmente del 70%-80% del lavoro. Fortunatamente R è un ambiente eccellente per questi scopi, sfortunatamente è quasi impossibile prevedere il delirio a cui andrete incontro. Per i casi più comuni validi strumenti sono già stati sviluppati, e di nuovi ne possono essere approntati in caso si trovino casi ricorrenti, come la correzione automatica dei taxa botanici, sia per errori di ortografia che per sinonimi non più in uso.
 
 Il controllo degli errori qui è un serio problema: è difficile notare un "1.o" al posto di "1.0", vedremo poi come assicurarsi che questo non avvenga.
 
