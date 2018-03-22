@@ -74,11 +74,10 @@ A [questo link](https://docs.google.com/spreadsheets/d/19U_JozMlFgE4YfD2kzcpR5lR
 
 ## Lezioni
 
-
 | Data       | Aula | Lezione                                                    |
 | ---        | ---  | ---                                                        |
-| 0x/03/2018 | J/E? | [lez01: Introduzione al corso, l'analisi dei dati, approccio alle statistiche](lez01/) |
-| 0x/03/2018 | J/E? | [lez02: R, gli oggetti ed i tipi di variabili](lez02/) |
+| 2018-03-20 |  J   | [lez01: Introduzione al corso, l'analisi dei dati, approccio alle statistiche](lez01/) |
+| 2018-03-27 |  J   | [lez02: R, gli oggetti ed i tipi di variabili](lez02/) |
 |            |      |                                                        |
 | alla fine  | casa | [lez97: Le cose e i loro nomi](lez97/) |
 | alla fine  | casa | [lez98: Le domande da fare ai tuoi dati](lez98/) |

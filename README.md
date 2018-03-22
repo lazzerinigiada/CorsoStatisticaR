@@ -86,13 +86,13 @@ Lezioni
 </thead>
 <tbody>
 <tr class="odd">
-<td>0x/03/2018</td>
-<td>J/E?</td>
+<td>2018-03-20</td>
+<td>J</td>
 <td><a href="lez01/">lez01: Introduzione al corso, l'analisi dei dati, approccio alle statistiche</a></td>
 </tr>
 <tr class="even">
-<td>0x/03/2018</td>
-<td>J/E?</td>
+<td>2018-03-27</td>
+<td>J</td>
 <td><a href="lez02/">lez02: R, gli oggetti ed i tipi di variabili</a></td>
 </tr>
 <tr class="odd">
