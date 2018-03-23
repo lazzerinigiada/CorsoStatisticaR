@@ -30,6 +30,14 @@ Sono 24 ore di laboratorio e 47 di studio individuale
 
 Ci saranno piccoli incarichi di lezione in lezione, e verranno portati avanti progetti individuali o di gruppo durante il corso, ma nessuna prova formale.
 
+
+## Domande tecniche:
+
+#### Come si crea una **pull request**
+
+Il punto di chiedervelo prima di spiegarvelo è di imparare a cercare le risposte sul web.  
+La raccomandazione è cercare in inglese :)
+
 ---
 
 <div align="center">

@@ -6,6 +6,8 @@ FAQ Laboratorio di statistica
     -   [Si possono recuperare le lezioni perse?](#si-possono-recuperare-le-lezioni-perse)
     -   [Quante sono le ore di corso?](#quante-sono-le-ore-di-corso)
     -   [Si svolgeranno delle prove intermedie durante il corso?](#si-svolgeranno-delle-prove-intermedie-durante-il-corso)
+-   [Domande tecniche:](#domande-tecniche)
+    -   [Come si crea una **pull request**](#come-si-crea-una-pull-request)
 
 Come ottenere i crediti:
 ------------------------
@@ -25,6 +27,14 @@ Sono 24 ore di laboratorio e 47 di studio individuale
 #### Si svolgeranno delle prove intermedie durante il corso?
 
 Ci saranno piccoli incarichi di lezione in lezione, e verranno portati avanti progetti individuali o di gruppo durante il corso, ma nessuna prova formale.
+
+Domande tecniche:
+-----------------
+
+#### Come si crea una **pull request**
+
+Il punto di chiedervelo prima di spiegarvelo è di imparare a cercare le risposte sul web.
+La raccomandazione è cercare in inglese :)
 
 ------------------------------------------------------------------------
 
