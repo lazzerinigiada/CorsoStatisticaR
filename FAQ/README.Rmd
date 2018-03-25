@@ -45,6 +45,11 @@ Il punto di chiedervelo prima di spiegarvelo è di imparare a cercare le rispost
 La raccomandazione è cercare in inglese.
 
 #### come si crea una pull request da GitHub Dekstop
+
+
+## Altre domande:
+
+### Finito il corso, possiamo trovare sul web qualche valido tutorial per migliorare le proprie capacità nell'uso di R? Ne consigliereste qualcuno in particolare?
 ---
 
 <div align="center">
