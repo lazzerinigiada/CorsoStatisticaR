@@ -47,6 +47,11 @@ La raccomandazione è cercare in inglese.
 #### come si crea una pull request da GitHub Dekstop
 
 #### che differenza c'è tra una branche e una fork?
+
+## Altre domande:
+
+#### Finito il corso, possiamo trovare sul web qualche valido tutorial per migliorare le proprie capacità nell'uso di R? Ne consigliereste qualcuno in particolare?
+
 ---
 
 <div align="center">
