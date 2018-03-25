@@ -45,6 +45,8 @@ Il punto di chiedervelo prima di spiegarvelo è di imparare a cercare le rispost
 La raccomandazione è cercare in inglese.
 
 #### come si crea una pull request da GitHub Dekstop
+
+#### che differenza c'è tra una branche e una fork?
 ---
 
 <div align="center">
