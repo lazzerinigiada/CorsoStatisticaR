@@ -72,3 +72,4 @@ Insieme al materiale delle lezioni verrà fornito anche il materiale di approfon
 [Syllabus](../README.md)
 
 ------------------------------------------------------------------------
+#### Esiste un numero massimo di account che possono contribuire alla realizzazione dello stesso progetto? 
