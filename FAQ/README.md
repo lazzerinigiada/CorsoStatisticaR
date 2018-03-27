@@ -80,3 +80,4 @@ Insieme al materiale delle lezioni verrà fornito anche il materiale di approfon
 [Syllabus](../README.md)
 
 ------------------------------------------------------------------------
+#### Per l'esame di stato è richiesta la conoscenza di R?
