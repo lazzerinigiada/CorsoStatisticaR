@@ -72,3 +72,4 @@ Insieme al materiale delle lezioni verrà fornito anche il materiale di approfon
 [Syllabus](../README.md)
 
 ------------------------------------------------------------------------
+####esiste una guida consigliata per imparare ad usare R? 
