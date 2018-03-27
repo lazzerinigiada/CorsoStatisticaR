@@ -60,8 +60,16 @@ La raccomandazione è cercare in inglese.
 
 Non si può: il comando *Create pull request* dalla branch nella **propria fork**, reindirizza alla pagina giusta sul browser.
 
+#### Esiste un numero massimo di account che possono contribuire alla realizzazione dello stesso progetto? 
+
+No, uno degli scopi di GitHub è quello di permettere una collaborazione diffusa, se si prevede l'accesso di numerosi utenti è buona regola stabilire delle norme di comportamento, come indicato nelle guide di GitHub stesso.
+
 Altre domande:
 --------------
+
+#### Esiste una guida consigliata per imparare ad usare R? 
+
+Esistono numerosi manuali, i più utili verranno messi a disposizione sul sito del corso. RStudio in generale pubblica le cose migliori.
 
 #### Finito il corso, possiamo trovare sul web qualche valido tutorial per migliorare le proprie capacità nell'uso di R? Ne consigliereste qualcuno in particolare?
 
@@ -72,4 +80,3 @@ Insieme al materiale delle lezioni verrà fornito anche il materiale di approfon
 [Syllabus](../README.md)
 
 ------------------------------------------------------------------------
-#### Esiste un numero massimo di account che possono contribuire alla realizzazione dello stesso progetto? 
