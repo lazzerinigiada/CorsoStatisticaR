@@ -47,6 +47,8 @@ Non ho consigli specifici, se qualcuno ne ha è il benvenuto, ma penso che prova
 Il punto di chiedervelo prima di spiegarvelo è di imparare a cercare le risposte sul web.  
 La raccomandazione è cercare in inglese.
 
+#### Dove posso trovare i tutorial per l'utilizzo di GitHub? (_GitHub for dummies_)
+
 #### Che differenza c'è tra Branch e Fork?
 
 * Fork è una copia di una _repository_, contiene **tutte** le branches della repository originale.
