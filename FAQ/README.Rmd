@@ -19,7 +19,7 @@ output:
 Sì, si chiama frequenza proficua per un motivo. È obbligatorio seguire almeno l'80% delle lezioni.
 
 #### Si possono recuperare le lezioni perse?
-
+ 
 Sì, direi di sì, *magari* a gruppi, *magari* non un mese dopo.
 
 #### Quante sono le ore di corso?
@@ -65,7 +65,7 @@ Non si può: il comando _Create pull request_ dalla branch nella **propria fork*
 Insieme al materiale delle lezioni verrà fornito anche il materiale di approfondimanto, la community di R è estremamente vivace, e il miglior modo di entrare nel vivo della materia è quello di seguirne gli attori principali. Seguire i collegamenti nel materiale allegato dovrebbe portare a quasi tutte le persone giuste.
 
 #### Ho trovato questo tutorial in pdf, Robinson icebreakerR (https://cran.r-project.org/doc/contrib/Robinson-icebreaker.pdf), secondo te va bene?
-###
+### è un problema se non sono riuscita a scaricare GitHub Desktop?
 
 <div align="center">
 [Syllabus](../README.md)
